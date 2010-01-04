@@ -16,17 +16,4 @@ public function new( name:String,value:Float):Void;
 static public function createPredefinedLevelsCache_():Void;
 static public function getPredefinedLevel( name:String):Dynamic;
 static public function getPredefinedLevelByValue( value:Float):Dynamic;
-public var name:String;
-public var value:Float;
-static public var OFF:Dynamic;
-static public var SHOUT:Dynamic;
-static public var SEVERE:Dynamic;
-static public var WARNING:Dynamic;
-static public var INFO:Dynamic;
-static public var CONFIG:Dynamic;
-static public var FINE:Dynamic;
-static public var FINER:Dynamic;
-static public var FINEST:Dynamic;
-static public var ALL:Dynamic;
-static public var PREDEFINED_LEVELS:Dynamic;
 }

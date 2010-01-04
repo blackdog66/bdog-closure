@@ -17,5 +17,4 @@ public function new():Void;
  public function addLogRecord( logRecord:Dynamic):Void;
 static public function autoInstall():Void;
 static public function show():Void;
-static public var instance:Dynamic;
 }

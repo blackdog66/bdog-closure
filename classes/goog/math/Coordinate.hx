@@ -19,6 +19,4 @@ static public function distance( a:Dynamic,b:Dynamic):Float;
 static public function squaredDistance( a:Dynamic,b:Dynamic):Float;
 static public function difference( a:Dynamic,b:Dynamic):Dynamic;
 static public function sum( a:Dynamic,b:Dynamic):Dynamic;
-public var x:Float;
-public var y:Float;
 }

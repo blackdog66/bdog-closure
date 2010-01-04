@@ -45,6 +45,4 @@ static public function fromString( str:String,?opt_radix:Float):Dynamic;
  public function xor( other:Dynamic):Dynamic;
  public function shiftLeft( numBits:Float):Dynamic;
  public function shiftRight( numBits:Float):Dynamic;
-static public var ZERO:Dynamic;
-static public var ONE:Dynamic;
 }

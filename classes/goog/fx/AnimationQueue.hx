@@ -12,7 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.fx.AnimationQueue')");
       }
 public function new():Void;
-public var executeChildrenAction:Dynamic;
-public var add:Dynamic;
-public var remove:Dynamic;
 }

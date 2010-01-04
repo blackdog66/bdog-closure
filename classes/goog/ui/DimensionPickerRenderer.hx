@@ -18,5 +18,4 @@ public function new():Void;
  public function getGridOffsetY( palette:Dynamic,y:Float):Float;
  public function setHighlightedSize( palette:Dynamic,columns:Float,rows:Float):Void;
  public function positionMouseCatcher( palette:Dynamic):Void;
-static public var CSS_CLASS:String;
 }

@@ -19,5 +19,4 @@ public function new():Void;
  public function getContainingItem( palette:Dynamic,node:Dynamic):Dynamic;
  public function highlightCell( palette:Dynamic,node:Dynamic,highlight:Bool):Void;
  public function selectCell( palette:Dynamic,node:Dynamic,select:Bool):Void;
-static public var CSS_CLASS:String;
 }

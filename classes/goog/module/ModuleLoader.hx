@@ -14,5 +14,4 @@ static function __init__(): Void {
 public function new():Void;
  public function handleSuccess( bulkLoader:Dynamic,moduleIds:Array<String>,successFn:Dynamic->Dynamic,errorFn:Dynamic):Void;
  public function handleError( bulkLoader:Dynamic,moduleIds:Array<String>,errorFn:Dynamic,status:Float):Void;
-public var logger:Dynamic;
 }

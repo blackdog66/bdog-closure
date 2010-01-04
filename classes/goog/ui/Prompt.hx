@@ -17,6 +17,4 @@ public function new( promptTitle:String,promptText:String,callBack:Dynamic,?opt_
  public function setCols( cols:Float):Void;
  public function getCols():Float;
  public function setDefaultValue( defaultValue:String):Void;
-public var MSG_PROMPT_OK:Dynamic;
-public var MSG_PROMPT_CANCEL:Dynamic;
 }

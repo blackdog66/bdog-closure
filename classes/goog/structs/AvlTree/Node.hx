@@ -14,9 +14,4 @@ static function __init__(): Void {
 public function new( value:Dynamic,?opt_parent:Dynamic):Void;
  public function isRightChild():Bool;
  public function isLeftChild():Bool;
-public var value:Dynamic;
-public var parent:Dynamic;
-public var left:Dynamic;
-public var right:Dynamic;
-public var height:Float;
 }

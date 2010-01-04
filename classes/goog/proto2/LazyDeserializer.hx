@@ -13,5 +13,4 @@ static function __init__(): Void {
       }
 public function new():Void;
  public function deserializeTo( message:Void,data:Void):Void;
-public var deserializeField:Dynamic;
 }

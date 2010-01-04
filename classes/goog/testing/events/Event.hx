@@ -12,7 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.testing.events.Event')");
       }
 public function new( type:String,?opt_target:Dynamic):Void;
-public var type:String;
-public var target:Dynamic;
-public var currentTarget:Dynamic;
 }

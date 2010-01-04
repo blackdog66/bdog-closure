@@ -50,14 +50,4 @@ static public function onStartExecution():Void;
 static public function onEndExecution():Void;
 static public function getStatEventTarget():Dynamic;
 static public function notifyStatEvent( stat:Dynamic):Void;
-static public var State:Float;
-static public var FORWARD_CHANNEL_MAX_RETRIES:Float;
-static public var FORWARD_CHANNEL_RETRY_TIMEOUT:Float;
-static public var BACK_CHANNEL_XMHTTP_MAX_RETRIES:Float;
-static public var VERSION:Float;
-static public var Error:Float;
-static public var Event:Dynamic;
-static public var Stat:Float;
-static public var MAGIC_RESPONSE_COOKIE:String;
-static public var LogSaver:Dynamic;
 }

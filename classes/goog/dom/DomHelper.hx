@@ -27,18 +27,4 @@ public function new( ?opt_document:Dynamic):Void;
  public function getWindow():Dynamic;
  public function getDocumentScrollElement():Dynamic;
  public function getDocumentScroll():Dynamic;
-public var $:Dynamic;
-public var $$:String;
-public var $dom:String;
-public var appendChild:Dynamic;
-public var removeChildren:Dynamic;
-public var insertSiblingBefore:Dynamic;
-public var insertSiblingAfter:Dynamic;
-public var removeNode:Dynamic;
-public var replaceNode:Dynamic;
-public var flattenElement:Dynamic;
-public var isNodeLike:Dynamic;
-public var contains:Dynamic;
-public var findNode:Dynamic;
-public var findNodes:Dynamic;
 }

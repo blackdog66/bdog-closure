@@ -15,6 +15,4 @@ public function new( content:Dynamic,?opt_menu:Dynamic,?opt_renderer:Dynamic,?op
 static public function newColorMenu( ?opt_extraItems:Dynamic,?opt_domHelper:Dynamic):Dynamic;
  public function getSelectedColor():String;
  public function setSelectedColor( color:String):Void;
-static public var PALETTES:Dynamic;
-static public var NO_COLOR:String;
 }

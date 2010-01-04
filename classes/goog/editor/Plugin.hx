@@ -22,11 +22,4 @@ public function new():Void;
  public function isAutoDispose():Bool;
  public function execCommand( command:String,var_args:Dynamic):Dynamic;
  public function isSupportedCommand( command:String):Bool;
-public var fieldObject:Dynamic;
-public var logger:Dynamic;
-public var activeOnUneditableFields:Bool;
-public var isSilentCommand:String;
-static public var Op:Float;
-static public var OPCODE:Dynamic;
-static public var IRREPRESSIBLE_OPS:Dynamic;
 }

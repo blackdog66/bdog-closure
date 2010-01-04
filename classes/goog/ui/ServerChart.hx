@@ -82,19 +82,4 @@ public function new( type:Dynamic,?opt_width:Float,?opt_height:Float,?opt_domHel
  public function addDataSet( data:Dynamic,color:String,?opt_legendText:String):Void;
  public function clearDataSets():Void;
  public function getData( ?opt_setNumber:Float):Dynamic;
-static public var CHART_SERVER_URI:String;
-static public var CHART_SERVER_HTTPS_URI:String;
-static public var DEFAULT_NORMALIZATION:Float;
-static public var EncodingType:String;
-static public var ChartType:String;
-static public var MultiAxisType:String;
-static public var MultiAxisAlignment:Float;
-static public var LegendPosition:String;
-static public var AxisDisplayType:String;
-static public var MaximumValue:Float;
-static public var UriParam:String;
-static public var CHART_VALUES:String;
-static public var CHART_VALUES_EXTENDED:String;
-static public var EXTENDED_UPPER_BOUND:Dynamic;
-static public var Event:String;
 }

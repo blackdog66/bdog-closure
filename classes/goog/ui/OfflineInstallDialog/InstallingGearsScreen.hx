@@ -14,5 +14,4 @@ static function __init__(): Void {
 public function new( dialog:Dynamic):Void;
  public function getButtonSet():Dynamic;
  public function getContent():String;
-static public var TYPE:String;
 }

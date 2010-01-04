@@ -19,8 +19,4 @@ static public function boundingBox( var_args:Dynamic):Dynamic;
  public function expand( top:Dynamic,?opt_right:Float,?opt_bottom:Float,?opt_left:Float):Dynamic;
 static public function equals( a:Dynamic,b:Dynamic):Bool;
 static public function distance( box:Dynamic,coord:Dynamic):Float;
-public var top:Float;
-public var right:Float;
-public var bottom:Float;
-public var left:Float;
 }

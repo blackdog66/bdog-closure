@@ -210,5 +210,4 @@ public function new():Void;
  public function hasRepeatedNestedEnum():Bool;
  public function repeatedNestedEnumCount():Float;
  public function clearRepeatedNestedEnum():Void;
-static public var NestedEnum:Float;
 }

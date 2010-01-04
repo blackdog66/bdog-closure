@@ -13,5 +13,4 @@ static function __init__(): Void {
       }
 public function new():Void;
  public function handleKeyboardShortcut( e:Void,key:Void,isModifierPressed:Void):Void;
-public var handleTabKey:Dynamic;
 }

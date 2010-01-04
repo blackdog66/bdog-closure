@@ -56,5 +56,4 @@ static public function parse( uri:Dynamic,?opt_ignoreCase:Bool):Dynamic;
 static public function create( ?opt_scheme:String,?opt_userInfo:String,?opt_domain:String,?opt_port:Float,?opt_path:String,?opt_query:Dynamic,?opt_fragment:String,?opt_ignoreCase:Bool):Dynamic;
 static public function removeDotSegments( path:String):String;
 static public function haveSameDomain( uri1String:String,uri2String:String):Bool;
-static public var RANDOM_PARAM:String;
 }

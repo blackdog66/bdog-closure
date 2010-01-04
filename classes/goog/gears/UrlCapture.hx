@@ -19,5 +19,4 @@ public function new( name:String,requiredCookie:String,?opt_localServer:Dynamic)
  public function abort( captureId:Float):Void;
  public function isCaptured( uri:Dynamic):Bool;
  public function remove( uri:Dynamic):Void;
-static public var EventType:String;
 }

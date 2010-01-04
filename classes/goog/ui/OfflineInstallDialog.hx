@@ -26,6 +26,4 @@ public function new( ?opt_class:String,?opt_useIframeMask:Bool,?opt_domHelper:Dy
  public function registerScreen( screen:Dynamic):Void;
  public function update():Void;
  public function goToGearsDownloadPage():Void;
-static public var ButtonKeyType:String;
-static public var ScreenType:String;
 }

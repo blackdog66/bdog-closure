@@ -14,5 +14,4 @@ static function __init__(): Void {
 public function new():Void;
  public function getValue( element:Void):Void;
  public function setValue( element:Void,value:Void):Void;
-public var updateAriaState:Dynamic;
 }

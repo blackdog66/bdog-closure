@@ -21,5 +21,4 @@ public function new( firstComponent:Dynamic,secondComponent:Dynamic,orientation:
  public function getFirstComponentSize():Float;
  public function setFirstComponentSize( ?opt_size:Float):Void;
  public function setSize( size:Dynamic):Void;
-static public var Orientation:String;
 }

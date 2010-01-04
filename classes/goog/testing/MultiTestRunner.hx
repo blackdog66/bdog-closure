@@ -34,6 +34,4 @@ public function new( ?opt_domHelper:Dynamic):Void;
  public function start():Void;
  public function log( msg:String):Void;
  public function processResult( frame:Dynamic):Void;
-static public var DEFAULT_TIMEOUT_MS:Float;
-static public var STATES:Array<String>;
 }

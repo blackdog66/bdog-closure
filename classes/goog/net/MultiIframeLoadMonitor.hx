@@ -14,5 +14,4 @@ static function __init__(): Void {
 public function new( iframes:Array<Dynamic>,callBack:Dynamic->Dynamic,?opt_hasContent:Bool):Void;
  public function handleEvent( e:Dynamic):Void;
  public function stopMonitoring():Void;
-public var callback_:Dynamic->Dynamic;
 }

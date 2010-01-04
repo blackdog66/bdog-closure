@@ -12,6 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.ui.AnimatedZippy')");
       }
 public function new( header:Dynamic,content:Dynamic,?opt_expanded:Bool):Void;
-public var animationDuration:Float;
-public var animationAcceleration:Dynamic;
 }

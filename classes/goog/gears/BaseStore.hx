@@ -27,8 +27,4 @@ public function new( database:Dynamic):Void;
  public function hasTable( name:String):Bool;
  public function hasIndex( name:String):Bool;
  public function hasTrigger( name:String):Bool;
-static public var SchemaType:Float;
-public var name:String;
-public var version:Float;
-public var schema:Array<Dynamic>;
 }

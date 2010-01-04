@@ -36,9 +36,4 @@ public function new( handler:Dynamic,?opt_domHelper:Dynamic):Void;
  public function unblockReadyEvents():Void;
  public function processTextAsync( node:Dynamic,text:String):Dynamic;
  public function continueAsyncProcessing():Dynamic;
-public var handler_:Dynamic;
-public var suggestionsMenuClassName:String;
-public var markCorrected:Bool;
-static public var Direction:Float;
-static public var AsyncResult:Float;
 }

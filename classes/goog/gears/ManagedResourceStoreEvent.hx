@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.gears.ManagedResourceStoreEvent')");
       }
 public function new( type:String,?opt_errorMessage:String):Void;
-public var errorMessage:String;
 }

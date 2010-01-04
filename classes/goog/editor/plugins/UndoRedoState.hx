@@ -13,8 +13,4 @@ static function __init__(): Void {
       }
 public function new( asynchronous:Bool):Void;
  public function isAsynchronous():Bool;
-static public var ACTION_COMPLETED:Dynamic;
-public var undo:Dynamic;
-public var redo:Dynamic;
-public var equals:Dynamic;
 }

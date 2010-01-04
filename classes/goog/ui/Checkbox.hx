@@ -22,6 +22,4 @@ public function new( ?opt_checked:Dynamic):Void;
  public function setLabel( label:Dynamic):Void;
  public function toggle():Void;
  public function updateView():Void;
-static public var State:Bool;
-static public var CSS_CLASS:String;
 }

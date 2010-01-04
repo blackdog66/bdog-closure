@@ -26,7 +26,4 @@ public function new( flashUrl:String,?opt_domHelper:Dynamic):Void;
  public function hasRequiredVersion():Bool;
  public function getFlashElement():Dynamic;
  public function isLoaded():Bool;
-static public var Wmodes:String;
-static public var CSS_CLASS:String;
-static public var FLASH_CSS_CLASS:String;
 }

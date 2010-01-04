@@ -26,7 +26,4 @@ static public function lastWeek( ?opt_today:Dynamic):Dynamic;
 static public function lastBusinessWeek( ?opt_today:Dynamic):Dynamic;
 static public function allTime( ?opt_today:Dynamic):Dynamic;
 static public function standardDateRange( dateRangeKey:String,?opt_today:Dynamic):Dynamic;
-static public var MINIMUM_DATE:Dynamic;
-static public var MAXIMUM_DATE:Dynamic;
-static public var StandardDateRangeKeys:String;
 }

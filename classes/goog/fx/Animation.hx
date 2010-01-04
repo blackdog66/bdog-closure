@@ -29,14 +29,4 @@ static public function unregisterAnimation( animation:Dynamic):Void;
  public function onResume():Void;
  public function onStop():Void;
 static public function cycleAnimations_():Void;
-public var startPoint:Array<Float>;
-public var endPoint:Array<Float>;
-public var duration:Float;
-public var coords:Array<Float>;
-static public var EventType:String;
-static public var State:Float;
-public var progress:Float;
-public var startTime:Float;
-public var endTime:Float;
-public var lastFrame:Float;
 }

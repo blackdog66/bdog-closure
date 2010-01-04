@@ -21,5 +21,4 @@ public function new( ?opt_el:Dynamic,?opt_title:Dynamic,?opt_domHelper:Dynamic):
  public function select():Void;
  public function setEnabled( enabled:Bool):Void;
  public function isEnabled():Bool;
-public var dom_:Dynamic;
 }

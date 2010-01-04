@@ -17,5 +17,4 @@ public function new():Void;
  public function setNodeInMap( node:Dynamic):Void;
  public function removeNodeFromMap( node:Dynamic):Void;
  public function clear():Void;
-static public var Offset:Float;
 }

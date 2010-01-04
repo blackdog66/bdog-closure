@@ -26,7 +26,4 @@ public function new( ?opt_domHelper:Dynamic,?opt_colorPalette:Dynamic):Void;
  public function setFocusable( focusable:Bool):Void;
  public function focus():Void;
 static public function createSimpleColorGrid( ?opt_domHelper:Dynamic):Dynamic;
-static public var DEFAULT_NUM_COLS:Float;
-static public var EventType:String;
-static public var SIMPLE_GRID_COLORS:Array<String>;
 }

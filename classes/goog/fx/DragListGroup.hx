@@ -19,5 +19,4 @@ public function new():Void;
  public function setCurrDragItemClass( currDragItemClass:String):Void;
  public function setDraggerElClass( draggerElClass:String):Void;
  public function init():Void;
-static public var EventType:Dynamic;
 }

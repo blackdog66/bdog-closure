@@ -21,5 +21,4 @@ public function new( width:Dynamic,height:Dynamic,?opt_coordWidth:Float,?opt_coo
  public function getPixelSize():Dynamic;
  public function getElement():Dynamic;
  public function render( parentElement:Dynamic):Void;
-public var transform:Dynamic;
 }

@@ -14,5 +14,4 @@ static function __init__(): Void {
 public function new( content:Dynamic,?opt_model:Dynamic,?opt_domHelper:Dynamic,?opt_renderer:Dynamic):Void;
  public function getCheckedState():Dynamic;
  public function setCheckedState( state:Dynamic):Void;
-static public var State:Float;
 }

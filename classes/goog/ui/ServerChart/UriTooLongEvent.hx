@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.ui.ServerChart.UriTooLongEvent')");
       }
 public function new( uri:String):Void;
-public var uri:String;
 }

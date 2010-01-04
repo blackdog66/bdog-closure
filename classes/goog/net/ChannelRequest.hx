@@ -25,10 +25,4 @@ public function new( channel:Dynamic,channelDebug:Dynamic,?opt_sessionId:String,
  public function getLastStatusCode():Float;
  public function getSessionId():Dynamic;
  public function getRequestId():Dynamic;
-static public var TIMEOUT_MS:Float;
-static public var RETRY_DELAY_MS:Float;
-static public var RETRY_DELAY_SEED:Float;
-static public var INACTIVE_CHANNEL_RETRY_FACTOR:Float;
-static public var POLLING_INTERVAL_MS:Float;
-static public var Error:Float;
 }

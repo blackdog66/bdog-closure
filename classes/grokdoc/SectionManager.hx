@@ -14,6 +14,4 @@ static function __init__(): Void {
 public function new( startOpen:Bool,sectionElt:Dynamic,zippies:Dynamic):Void;
  public function handleClick( e:Dynamic):Void;
  public function setToggleText():Void;
-static public var CLOSEALL_TEXT:String;
-static public var OPENALL_TEXT:String;
 }

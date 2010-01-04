@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.ui.ZippyEvent')");
       }
 public function new( type:String,target:Dynamic,expanded:Bool):Void;
-public var expanded:Bool;
 }

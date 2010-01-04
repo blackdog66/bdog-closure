@@ -33,5 +33,4 @@ public function new( width:Dynamic,height:Dynamic,?opt_coordWidth:Float,?opt_coo
  public function isDrawable( group:Dynamic):Bool;
  public function isRedrawRequired( group:Dynamic):Bool;
  public function createGroup( ?opt_group:Dynamic):Dynamic;
-public var canvasElement:Dynamic;
 }

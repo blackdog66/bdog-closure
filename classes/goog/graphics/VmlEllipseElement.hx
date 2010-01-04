@@ -14,8 +14,4 @@ static function __init__(): Void {
 public function new( element:Dynamic,graphics:Dynamic,cx:Float,cy:Float,rx:Float,ry:Float,stroke:Dynamic,fill:Dynamic):Void;
  public function setCenter( cx:Float,cy:Float):Void;
  public function setRadius( rx:Float,ry:Float):Void;
-public var cx:Float;
-public var cy:Float;
-public var rx:Float;
-public var ry:Float;
 }

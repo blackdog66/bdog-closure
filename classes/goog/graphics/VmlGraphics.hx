@@ -35,5 +35,4 @@ static public function setPositionAndSize( element:Dynamic,left:Float,top:Float,
 static public function getVmlPath( path:Dynamic):String;
  public function createGroup( ?opt_group:Dynamic):Dynamic;
  public function getTextWidth( text:String,font:Dynamic):Float;
-static public var COORD_MULTIPLIER:Float;
 }

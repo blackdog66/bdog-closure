@@ -13,5 +13,4 @@ static function __init__(): Void {
       }
 public function new( element:Dynamic):Void;
  public function handleEvent( e:Dynamic):Void;
-static public var EventType:String;
 }

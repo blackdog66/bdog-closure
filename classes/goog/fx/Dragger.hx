@@ -28,11 +28,4 @@ static public function cancelIeDragStart( e:Dynamic):Void;
  public function limitX( x:Float):Float;
  public function limitY( y:Float):Float;
  public function defaultAction( x:Float,y:Float):Void;
-static public var EventType:String;
-public var screenX:Float;
-public var screenY:Float;
-public var startX:Float;
-public var startY:Float;
-public var deltaX:Float;
-public var deltaY:Float;
 }

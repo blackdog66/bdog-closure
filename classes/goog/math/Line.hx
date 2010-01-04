@@ -17,8 +17,4 @@ public function new( x0:Float,y0:Float,x1:Float,y1:Float):Void;
  public function getSegmentLengthSquared():Float;
  public function getSegmentLength():Float;
  public function getClosestPoint( x:Dynamic,?opt_y:Float):Dynamic;
-public var x0:Float;
-public var y0:Float;
-public var x1:Float;
-public var y1:Float;
 }

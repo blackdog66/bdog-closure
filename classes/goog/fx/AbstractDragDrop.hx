@@ -34,7 +34,4 @@ public function new():Void;
  public function createDragElement( sourceEl:Dynamic):Dynamic;
  public function getDragElementPosition( el:Dynamic,dragEl:Dynamic,event:Dynamic):Dynamic;
  public function getDragger():Dynamic;
-public var items_:Dynamic;
-static public var EventType:Dynamic;
-static public var initDragDistanceThreshold:Dynamic;
 }

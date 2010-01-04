@@ -39,7 +39,4 @@ public function new( ?opt_el:Dynamic,?opt_str:String,?opt_domHelper:Dynamic):Voi
  public function handleTooltipMouseOut( event:Dynamic):Void;
  public function startShowTimer( el:Dynamic,?opt_pos:Dynamic):Void;
  public function clearShowTimer():Void;
-public var cursorPosition:Dynamic;
-public var className:String;
-static public var State:Float;
 }

@@ -12,8 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.graphics.Font')");
       }
 public function new( size:Float,family:String):Void;
-public var size:Float;
-public var family:String;
-public var bold:Bool;
-public var italic:Bool;
 }

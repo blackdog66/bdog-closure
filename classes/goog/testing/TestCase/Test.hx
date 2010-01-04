@@ -13,7 +13,4 @@ static function __init__(): Void {
       }
 public function new( name:String,ref:Dynamic,?opt_scope:Dynamic):Void;
  public function execute():Void;
-public var name:String;
-public var ref:Dynamic;
-public var scope:Dynamic;
 }

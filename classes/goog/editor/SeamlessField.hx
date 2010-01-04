@@ -20,5 +20,4 @@ public function new( id:String,?opt_doc:Dynamic):Void;
  public function setIframeableCss( iframeableCss:String):Void;
  public function inheritBlendedCSS():Void;
  public function usesIframe():Void;
-public var logger:Dynamic;
 }

@@ -12,6 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.ui.HoverCard.TriggerEvent')");
       }
 public function new( type:Dynamic,target:Dynamic,anchor:Dynamic,?opt_data:Dynamic):Void;
-public var anchor:Dynamic;
-public var data:Dynamic;
 }

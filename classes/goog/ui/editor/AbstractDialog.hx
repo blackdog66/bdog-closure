@@ -21,7 +21,4 @@ public function new( domHelper:Dynamic):Void;
  public function getButtonElement( buttonId:String):Dynamic;
  public function handleOk( e:Dynamic):Bool;
  public function handleCancel():Void;
-static public var EventType:String;
-public var createDialogControl:Dynamic;
-public var createOkEvent:Dynamic;
 }

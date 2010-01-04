@@ -15,5 +15,4 @@ public function new():Void;
  public function init( baseUrl:String,?opt_urlFunction:Dynamic):Void;
  public function require( module:String,symbol:Float,callBack:Dynamic):Void;
  public function provide( module:String,?opt_symbol:Float,?opt_object:Dynamic):Void;
-static public var LOAD_CALLBACK:String;
 }

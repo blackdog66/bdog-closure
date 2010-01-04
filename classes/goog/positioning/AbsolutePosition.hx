@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.positioning.AbsolutePosition')");
       }
 public function new( arg1:Dynamic,?opt_arg2:Float):Void;
-public var coordinate:Dynamic;
 }

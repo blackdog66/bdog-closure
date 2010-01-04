@@ -16,6 +16,4 @@ public function new( channel:Dynamic):Void;
  public function processIncomingMsg( raw:String):Void;
  public function processIncomingAck( msgStr:String):Void;
  public function send( service:String,payload:String):Void;
-public var transportType:Float;
-static public var IFRAME_PREFIX:String;
 }

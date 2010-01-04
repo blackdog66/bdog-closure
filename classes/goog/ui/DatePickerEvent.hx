@@ -12,6 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.ui.DatePickerEvent')");
       }
 public function new( type:String,target:Dynamic,date:Dynamic):Void;
-public var target:Dynamic;
-public var date:Dynamic;
 }

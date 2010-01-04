@@ -35,5 +35,4 @@ static public function roundElement( element:Dynamic,servletUri:String,?opt_bord
  public function setContent( html:String):Void;
  public function getBorderHtml():String;
  public function getBackgroundHtml():String;
-static public var Corners:Float;
 }

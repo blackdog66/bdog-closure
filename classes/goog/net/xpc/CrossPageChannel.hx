@@ -23,6 +23,4 @@ public function new( cfg:Dynamic):Void;
  public function registerService( serviceName:String,callBack:Dynamic,?opt_jsonEncoded:Bool):Void;
  public function send( serviceName:String,payload:Dynamic):Void;
  public function getRole():Float;
-public var name:String;
-static public var Role:Float;
 }

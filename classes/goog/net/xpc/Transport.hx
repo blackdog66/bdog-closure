@@ -14,8 +14,4 @@ static function __init__(): Void {
 public function new():Void;
  public function getType():Float;
  public function getName():String;
-public var transportType:Float;
-public var transportServiceHandler:String;
-public var connect:Dynamic;
-public var send:String;
 }

@@ -23,6 +23,4 @@ public function new( ?opt_manager:Dynamic):Void;
  public function handleKeyboardShortcut( e:Void,key:Void,isModifierPressed:Void):Void;
  public function clearHistory():Void;
  public function refreshCurrentState( fieldObject:Dynamic):Void;
-public var logger:Dynamic;
-static public var COMMAND:String;
 }

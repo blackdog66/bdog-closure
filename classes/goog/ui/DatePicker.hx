@@ -43,5 +43,4 @@ public function new( ?opt_date:Dynamic,?opt_dateTimeSymbols:Dynamic):Void;
  public function getDate():Dynamic;
  public function setDate( date:Dynamic):Void;
  public function create( el:Dynamic):Void;
-static public var Events:Dynamic;
 }

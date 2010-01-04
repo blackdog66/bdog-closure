@@ -17,5 +17,4 @@ public function new( ?opt_properties:Dynamic):Void;
  public function setExpanded( expanded:Bool):Void;
  public function getDepth():Float;
 static public function decorate( selfObj:Dynamic):Void;
-static public var sampleProperties:Dynamic;
 }

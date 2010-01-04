@@ -22,6 +22,4 @@ public function new( ?opt_ratings:Array<String>,?opt_domHelper:Dynamic):Void;
  public function getRatings():Array<String>;
  public function setAttachedFormField( field:Dynamic):Void;
  public function getAttachedFormField():Dynamic;
-static public var CSS_CLASS:String;
-static public var EventType:String;
 }

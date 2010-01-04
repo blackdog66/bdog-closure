@@ -12,7 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.gears.WorkerEvent')");
       }
 public function new( type:String,messageObject:Dynamic):Void;
-public var message:Dynamic;
-public var json:Dynamic;
-public var messageObject:Dynamic;
 }

@@ -37,6 +37,4 @@ static public function getCustomRenderer( ctor:Dynamic,cssClassName:String):Dyna
  public function getClassNamesForState( state:Float):Array<String>;
  public function getClassForState( state:Dynamic):Dynamic;
  public function getStateFromClass( className:String):Dynamic;
-static public var CSS_CLASS:String;
-static public var IE6_CLASS_COMBINATIONS:Array<String>;
 }

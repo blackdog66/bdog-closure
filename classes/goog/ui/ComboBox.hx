@@ -32,5 +32,4 @@ public function new( ?opt_domHelper:Dynamic):Void;
  public function getValue():String;
  public function getToken():String;
  public function handleKeyEvent( e:Dynamic):Bool;
-static public var BLUR_DISMISS_TIMER_MS:Float;
 }

@@ -18,5 +18,4 @@ public function new( workerPool:Dynamic,?opt_id:Float):Void;
  public function sendMessage( message:Dynamic):Void;
  public function getId():Float;
 static public function isCommandLike( obj:Dynamic):Bool;
-static public var EventType:String;
 }

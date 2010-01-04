@@ -25,6 +25,4 @@ public function new( element:Dynamic,width:Float,height:Float,borderWidth:Float,
  public function setBorderColor( borderColor:String):Void;
  public function getBackgroundColor():Dynamic;
  public function setBackgroundColor( backgroundColor:String):Void;
-static public var BORDER_WIDTH_FACTOR:Float;
-public var draw:Dynamic;
 }

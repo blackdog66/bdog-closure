@@ -20,10 +20,4 @@ public function new( ?opt_lookupFunction:Dynamic,?opt_language:String):Void;
  public function processPending():Void;
  public function setWordStatus( word:String,status:Dynamic,?opt_suggestions:Array<String>):Void;
  public function getSuggestions( word:String):Array<String>;
-static public var EventType:String;
-static public var WordStatus:Float;
-static public var CacheIndex:Float;
-static public var WORD_BOUNDARY_CHARS:String;
-static public var WORD_BOUNDARY_REGEX:Dynamic;
-static public var SPLIT_REGEX:Dynamic;
 }

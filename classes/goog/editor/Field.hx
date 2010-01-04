@@ -79,17 +79,4 @@ static public function getActiveFieldId():String;
  public function writeIframeContent( iframe:Dynamic,innerHtml:String,extraStyles:Dynamic):Void;
  public function iframeFieldLoadHandler( iframe:Dynamic,innerHtml:String,styles:Dynamic):Void;
  public function getIframeAttributes():Dynamic;
-public var id:String;
-public var editableDomHelper:Dynamic;
-public var cssStyles:String;
-public var eventRegister:Dynamic;
-public var field:Dynamic;
-public var originalElement:Dynamic;
-public var logger:Dynamic;
-static public var EventType:String;
-static public var CHANGE_FREQUENCY:Float;
-static public var DELAYED_CHANGE_FREQUENCY:Float;
-public var usesIframe:Bool;
-public var isFixedHeight:Bool;
-static public var MUTATION_EVENTS_GECKO:Array<String>;
 }

@@ -15,5 +15,4 @@ public function new( containerNode:Dynamic,?opt_verticalMargin:Float,?opt_extern
  public function setConstrainScroll( constrain:Bool):Void;
  public function onMouseMove( event:Dynamic):Void;
  public function calculateScrollDelta( coordinate:Float,min:Float,rangeLength:Float):Float;
-static public var MARGIN:Float;
 }

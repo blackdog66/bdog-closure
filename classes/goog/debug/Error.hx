@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.debug.Error')");
       }
 public function new( ?opt_msg:Dynamic):Void;
-public var name:Dynamic;
 }

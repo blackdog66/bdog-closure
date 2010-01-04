@@ -14,7 +14,4 @@ static function __init__(): Void {
 public function new():Void;
  public function init( listener:Dynamic,proxy:Dynamic,src:Dynamic,type:String,capture:Bool,?opt_handler:Dynamic):Void;
  public function handleEvent( eventObject:Dynamic):Bool;
-public var key:Float;
-public var removed:Bool;
-public var callOnce:Bool;
 }

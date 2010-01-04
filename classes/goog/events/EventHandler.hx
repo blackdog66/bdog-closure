@@ -19,6 +19,4 @@ public function new( ?opt_handler:Dynamic):Void;
  public function unlistenWithWrapper( src:Dynamic,wrapper:Dynamic,listener:Dynamic,?opt_capt:Bool,?opt_handler:Dynamic):Dynamic;
  public function removeAll():Void;
  public function handleEvent( e:Dynamic):Void;
-static public var KEY_POOL_INITIAL_COUNT:Float;
-static public var KEY_POOL_MAX_COUNT:Float;
 }

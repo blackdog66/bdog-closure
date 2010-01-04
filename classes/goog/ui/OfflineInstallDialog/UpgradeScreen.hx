@@ -14,10 +14,4 @@ static function __init__(): Void {
 public function new( dialog:Dynamic):Void;
  public function getButtonSet():Dynamic;
  public function setUpgradeDescription( description:String):Void;
-public var MSG_OFFLINE_DIALOG_INSTALL_NEW_GEARS:Dynamic;
-public var installMsg_:String;
-public var MSG_OFFLINE_DIALOG_UPGRADE_GEARS:Dynamic;
-public var enableMsg_:String;
-static public var TYPE:String;
-public var isUpgradeButtonDefault:Bool;
 }

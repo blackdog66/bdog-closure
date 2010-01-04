@@ -33,5 +33,4 @@ public function new( html:String,?opt_config:Dynamic,?opt_domHelper:Dynamic):Voi
  public function setNode( node:Dynamic):Void;
  public function removeNode( node:Dynamic):Void;
  public function clearTypeAhead():Void;
-static public var defaultConfig:Dynamic;
 }

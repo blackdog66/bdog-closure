@@ -28,6 +28,4 @@ public function new( ?opt_url:String,?opt_caption:String,?opt_description:String
  public function setPlayer( player:Dynamic):Dynamic;
  public function getCategories():Dynamic;
  public function setCategories( categories:Dynamic):Dynamic;
-static public var MimeType:String;
-static public var Medium:String;
 }

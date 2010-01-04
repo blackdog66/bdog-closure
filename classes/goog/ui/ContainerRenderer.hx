@@ -27,5 +27,4 @@ static public function getCustomRenderer( ctor:Dynamic,cssClassName:String):Dyna
  public function getCssClass():String;
  public function getClassNames( container:Dynamic):Array<String>;
  public function getDefaultOrientation():Dynamic;
-static public var CSS_CLASS:String;
 }

@@ -12,10 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.gears.LogStore.Query')");
       }
 public function new():Void;
-public var level:Dynamic;
-public var minMillis:Float;
-public var maxMillis:Float;
-public var msgLike:String;
-public var loggerLike:String;
-public var limit:Float;
 }

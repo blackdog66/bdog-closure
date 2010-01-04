@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.net.BrowserChannel.StatEvent')");
       }
 public function new( eventTarget:Dynamic,stat:Dynamic):Void;
-public var stat:Dynamic;
 }

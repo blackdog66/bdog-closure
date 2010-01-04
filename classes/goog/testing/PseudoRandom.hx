@@ -15,9 +15,4 @@ public function new( ?opt_seed:Float,?opt_install:Bool):Void;
  public function install():Void;
  public function uninstall():Void;
  public function random():Float;
-static public var A:Float;
-static public var M:Float;
-static public var Q:Float;
-static public var R:Float;
-static public var ONE_OVER_M:Float;
 }

@@ -15,6 +15,4 @@ public function new():Void;
 static public function newControl( dataModel:Dynamic,?opt_domHelper:Dynamic):Dynamic;
 static public function setFlashUrl( flashUrl:String):Void;
 static public function buildFlashUrl( mp3Url:String):String;
-static public var CSS_CLASS:String;
-static public var MATCHER:Dynamic;
 }

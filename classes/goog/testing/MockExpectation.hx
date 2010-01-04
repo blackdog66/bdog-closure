@@ -15,10 +15,4 @@ public function new( name:String):Void;
  public function addErrorMessage( message:String):Void;
  public function getErrorMessage():String;
  public function getErrorMessageCount():Float;
-public var name:String;
-public var errorMessages:Dynamic;
-public var minCalls:Float;
-public var maxCalls:Float;
-public var actualCalls:Float;
-public var verificationCalls:Float;
 }

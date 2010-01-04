@@ -19,6 +19,4 @@ public function new( ?opt_domHelper:Dynamic):Void;
  public function sort( column:Float,?opt_reverse:Bool):Void;
 static public function numericSort( a:Dynamic,b:Dynamic):Float;
 static public function createReverseSort( sortFunction:Dynamic):Dynamic;
-static public var EventType:String;
-static public var alphaSort:Dynamic;
 }

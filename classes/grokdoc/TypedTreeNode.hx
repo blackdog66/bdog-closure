@@ -23,7 +23,4 @@ static public function followPath( separator:String,pathStr:String,startNode:Dyn
  public function getRowClassName():String;
  public function getLabelHtml():String;
  public function toHtml( sb:Dynamic):Void;
-static public var KIND_ICON_MAP:Dynamic;
-static public var KIND_LABEL_MAP:Dynamic;
-static public var CURRENT_CLASS:String;
 }

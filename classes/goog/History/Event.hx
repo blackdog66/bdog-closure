@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.History.Event')");
       }
 public function new( token:String):Void;
-public var token:String;
 }

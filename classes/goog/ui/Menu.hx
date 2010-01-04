@@ -28,6 +28,4 @@ public function new( ?opt_domHelper:Dynamic,?opt_renderer:Dynamic):Void;
  public function setAllowHighlightDisabled( allow:Bool):Void;
  public function getAllowHighlightDisabled():Bool;
  public function highlightNextPrefix( charStr:String):Bool;
-static public var EventType:String;
-static public var CSS_CLASS:String;
 }

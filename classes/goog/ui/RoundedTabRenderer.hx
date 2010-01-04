@@ -15,5 +15,4 @@ public function new():Void;
  public function createTab( dom:Dynamic,caption:Dynamic,location:Dynamic):Dynamic;
  public function createCaption( dom:Dynamic,caption:Dynamic):Dynamic;
  public function createEdge( dom:Dynamic,isTopEdge:Bool):Dynamic;
-static public var CSS_CLASS:String;
 }

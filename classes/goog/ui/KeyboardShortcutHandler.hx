@@ -27,7 +27,4 @@ static public function getKeyCode( name:String):Float;
 static public function parseStringShortcut( s:String):Array<Dynamic>;
  public function initializeKeyListener( keyTarget:Dynamic):Void;
  public function clearKeyListener():Void;
-static public var MAX_KEY_SEQUENCE_DELAY:Float;
-static public var Modifiers:Float;
-static public var EventType:String;
 }

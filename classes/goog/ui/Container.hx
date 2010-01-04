@@ -53,6 +53,4 @@ public function new( ?opt_orientation:Dynamic,?opt_renderer:Dynamic,?opt_domHelp
  public function setHighlightedIndexFromKeyEvent( index:Float):Void;
  public function isMouseButtonPressed():Bool;
  public function setMouseButtonPressed( pressed:Bool):Void;
-static public var EventType:String;
-static public var Orientation:String;
 }

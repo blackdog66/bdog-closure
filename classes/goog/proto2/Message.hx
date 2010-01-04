@@ -25,5 +25,4 @@ public function new():Void;
  public function set( field:Dynamic,value:Dynamic):Void;
  public function add( field:Dynamic,value:Dynamic):Void;
  public function clear( field:Dynamic):Void;
-static public var FieldType:Float;
 }

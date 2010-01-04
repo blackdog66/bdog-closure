@@ -12,7 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.ui.GaugeColoredRange')");
       }
 public function new( fromValue:Float,toValue:Float,backgroundColor:String):Void;
-public var fromValue:Float;
-public var toValue:Float;
-public var backgroundColor:String;
 }

@@ -12,7 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.structs.QuadTree.Point')");
       }
 public function new( x:Float,y:Float,?opt_value:Dynamic):Void;
-public var x:Float;
-public var y:Float;
-public var value:Dynamic;
 }

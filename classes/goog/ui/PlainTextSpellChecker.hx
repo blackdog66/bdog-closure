@@ -13,7 +13,4 @@ static function __init__(): Void {
       }
 public function new( handler:Dynamic,?opt_domHelper:Dynamic):Void;
  public function handleOverlayKeyEvent( e:Dynamic):Bool;
-public var invalidWordClassName:String;
-public var correctedWordClassName:String;
-public var correctionPaneClassName:String;
 }

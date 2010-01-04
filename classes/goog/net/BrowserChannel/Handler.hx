@@ -20,5 +20,4 @@ public function new():Void;
  public function getAdditionalParams( browserChannel:Dynamic):Dynamic;
  public function getNetworkTestImageUri( browserChannel:Dynamic):Dynamic;
  public function isActive( browserChannel:Dynamic):Bool;
-public var channelHandleMultipleArrays:Dynamic;
 }

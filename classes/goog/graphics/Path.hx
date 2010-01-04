@@ -30,5 +30,4 @@ static public function createSimplifiedPath( src:Dynamic):Dynamic;
  public function createTransformedPath( tx:Dynamic):Dynamic;
  public function transform( tx:Dynamic):Dynamic;
  public function isEmpty():Bool;
-static public var Segment:Float;
 }

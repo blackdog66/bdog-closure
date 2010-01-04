@@ -50,6 +50,4 @@ public function new( group:Dynamic,wrapper:Dynamic):Void;
  public function transform():Void;
  public function getPixelScaleX():Float;
  public function getPixelScaleY():Float;
-public var redraw:Dynamic;
-public var checkParentDependent:Bool;
 }

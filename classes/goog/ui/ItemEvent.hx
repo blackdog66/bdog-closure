@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.ui.ItemEvent')");
       }
 public function new( type:String,target:Dynamic,item:Dynamic):Void;
-public var item:Dynamic;
 }

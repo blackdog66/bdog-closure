@@ -14,7 +14,4 @@ static function __init__(): Void {
 public function new( type:String,?opt_target:Dynamic):Void;
  public function stopPropagation():Void;
  public function preventDefault():Void;
-public var type:String;
-public var target:Dynamic;
-public var currentTarget:Dynamic;
 }

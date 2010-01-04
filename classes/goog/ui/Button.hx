@@ -19,5 +19,4 @@ public function new( content:Dynamic,?opt_renderer:Dynamic,?opt_domHelper:Dynami
  public function setTooltip( tooltip:String):Void;
  public function setTooltipInternal( tooltip:String):Void;
  public function setCollapsed( sides:Float):Void;
-static public var Side:Float;
 }

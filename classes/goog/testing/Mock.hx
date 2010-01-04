@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.testing.Mock')");
       }
 public function new( objectToMock:Dynamic,?opt_mockStaticMethods:Bool,?opt_createProxy:Bool):Void;
-public var $proxy:Dynamic;
 }

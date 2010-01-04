@@ -14,5 +14,4 @@ static function __init__(): Void {
 public function new( ?opt_keyOption:Dynamic):Void;
  public function serialize( message:Dynamic):Dynamic;
  public function deserializeTo( message:Dynamic,data:Dynamic):Void;
-static public var KeyOption:Float;
 }

@@ -12,6 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.fx.dom.PredefinedEffect')");
       }
 public function new( element:Dynamic,start:Array<Float>,end:Array<Float>,time:Float,?opt_acc:Dynamic):Void;
-public var element:Dynamic;
-public var updateStyle:Dynamic;
 }

@@ -13,13 +13,4 @@ static function __init__(): Void {
       }
 public function new( type:String,anim:Dynamic):Void;
  public function coordsAsInts():Array<Float>;
-public var coords:Array<Float>;
-public var x:Float;
-public var y:Float;
-public var z:Float;
-public var duration:Float;
-public var progress:Float;
-public var fps:Dynamic;
-public var state:Float;
-public var anim:Dynamic;
 }

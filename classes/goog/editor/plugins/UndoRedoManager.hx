@@ -21,5 +21,4 @@ public function new():Void;
  public function clearHistory():Void;
  public function undoPeek():Dynamic;
  public function redoPeek():Dynamic;
-static public var EventType:String;
 }

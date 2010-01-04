@@ -14,5 +14,4 @@ static function __init__(): Void {
 public function new():Void;
  public function getTrogClassId():Void;
  public function execCommandInternal( command:String):Void;
-static public var COMMAND:String;
 }

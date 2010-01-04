@@ -15,5 +15,4 @@ public function new( tag:Dynamic):Void;
  public function getNonCollapsingBlankHtml():Void;
  public function queryCommandValue( command:Void):Void;
  public function handleEnterWebkitInternal( e:Void):Void;
-public var activeOnUneditableFields:Bool;
 }

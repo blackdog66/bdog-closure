@@ -21,5 +21,4 @@ static public function createTimeZone( timeZoneData:Dynamic):Dynamic;
  public function getShortName( date:Dynamic):String;
  public function getTimeZoneId():String;
  public function isDaylightTime( date:Dynamic):Bool;
-static public var NameType:Float;
 }

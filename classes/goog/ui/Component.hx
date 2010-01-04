@@ -51,8 +51,4 @@ static public function setDefaultRightToLeft( rightToLeft:Bool):Void;
  public function removeChild( child:Dynamic,?opt_unrender:Bool):Dynamic;
  public function removeChildAt( index:Float,?opt_unrender:Bool):Dynamic;
  public function removeChildren( ?opt_unrender:Bool):Void;
-static public var EventType:String;
-static public var Error:String;
-static public var State:Float;
-public var dom_:Dynamic;
 }

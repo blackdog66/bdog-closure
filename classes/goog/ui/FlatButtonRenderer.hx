@@ -13,5 +13,4 @@ static function __init__(): Void {
       }
 public function new():Void;
  public function getValue( element:Dynamic):Dynamic;
-static public var CSS_CLASS:String;
 }

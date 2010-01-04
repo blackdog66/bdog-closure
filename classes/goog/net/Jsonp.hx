@@ -16,5 +16,4 @@ public function new( uri:Dynamic,?opt_callbackParamName:String):Void;
  public function getRequestTimeout():Float;
  public function send( payload:Dynamic,?opt_replyCallback:Dynamic,?opt_errorCallback:Dynamic,?opt_callbackParamValue:String):Dynamic;
  public function cancel( request:Dynamic):Void;
-static public var CALLBACKS:Dynamic;
 }

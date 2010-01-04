@@ -156,6 +156,7 @@ class Create {
         processed.set(m.name,true);
       }
 
+      /*
       if (c.properties != null) {
         for (p in c.properties) {
           var n = p.name;
@@ -173,6 +174,7 @@ class Create {
           
         }
       }
+      */
       sb.add("}\n");
       
       Os.fileOut("classes/"+path+".hx",sb.toString());

@@ -23,6 +23,4 @@ public function new( database:Dynamic,?opt_tableName:String):Void;
  public function setCapturing( capturing:Bool):Void;
  public function addLogRecord( logRecord:Dynamic):Void;
  public function select( query:Dynamic):Dynamic;
-public var tableName:String;
-public var version:Dynamic;
 }

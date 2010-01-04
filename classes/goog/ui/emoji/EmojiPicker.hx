@@ -33,7 +33,4 @@ public function new( defaultImgUrl:String,?opt_domHelper:Dynamic):Void;
  public function getPage( index:Float):Dynamic;
  public function getPages():Dynamic;
  public function getTabPane():Dynamic;
-static public var DEFAULT_NUM_ROWS:Float;
-static public var DEFAULT_NUM_COLS:Float;
-static public var DEFAULT_TAB_LOCATION:Dynamic;
 }

@@ -15,9 +15,4 @@ public function new( ?opt_prefix:String):Void;
  public function setStartTimeProvider( provider:Dynamic):Void;
  public function getStartTimeProvider():Dynamic;
  public function resetRelativeTimeStart():Void;
-public var showAbsoluteTime:Bool;
-public var showRelativeTime:Bool;
-public var showLoggerName:Bool;
-public var showExceptionText:Bool;
-public var formatRecord:Dynamic;
 }

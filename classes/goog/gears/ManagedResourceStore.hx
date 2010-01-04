@@ -28,7 +28,4 @@ public function new( name:String,requiredCookie:String,?opt_localServer:Dynamic)
  public function isEnabled():Bool;
  public function setEnabled( isEnabled:Bool):Void;
  public function remove():Void;
-static public var UPDATE_INTERVAL_MS:Float;
-static public var UpdateStatus:Dynamic;
-static public var EventType:String;
 }

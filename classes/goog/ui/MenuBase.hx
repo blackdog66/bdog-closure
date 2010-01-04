@@ -19,5 +19,4 @@ public function new( ?opt_element:Dynamic):Void;
  public function onMouseDown( e:Dynamic):Void;
  public function onMouseUp( e:Dynamic):Void;
  public function onKeyDown( e:Dynamic):Void;
-static public var Events:Dynamic;
 }

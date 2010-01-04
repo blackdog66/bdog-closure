@@ -15,5 +15,4 @@ public function new():Void;
  public function applyPattern( pattern:String):Void;
  public function format( date:Dynamic,?opt_timeZone:Dynamic):String;
  public function applyStandardPattern( formatType:Float):Void;
-static public var PartTypes:Float;
 }

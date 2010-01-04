@@ -29,5 +29,4 @@ public function new( content:Dynamic,?opt_model:Dynamic,?opt_domHelper:Dynamic,?
  public function containsElement( element:Dynamic):Bool;
  public function setPositionAdjustable( isAdjustable:Bool):Void;
  public function isPositionAdjustable():Bool;
-static public var MENU_DELAY_MS:Float;
 }

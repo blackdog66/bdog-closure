@@ -46,5 +46,4 @@ static public function resultSetToArray( rs:Dynamic):Dynamic;
  public function close():Void;
 static public function isLockedException( ex:Dynamic):Bool;
  public function remove():Void;
-static public var EventType:String;
 }

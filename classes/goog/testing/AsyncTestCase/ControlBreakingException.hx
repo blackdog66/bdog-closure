@@ -13,5 +13,4 @@ static function __init__(): Void {
       }
 public function new():Void;
  public function toString():Void;
-static public var TO_STRING:String;
 }

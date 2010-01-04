@@ -27,6 +27,4 @@ public function new( ?opt_domHelper:Dynamic):Void;
  public function getActions( status:Dynamic):Array<Dynamic>;
  public function createActionObject( actionMessage:String,actionEventType:String):Dynamic;
  public function getAdditionalMessage( status:Dynamic):String;
-static public var EventType:String;
-public var dirty:Bool;
 }

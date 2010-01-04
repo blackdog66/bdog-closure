@@ -14,7 +14,4 @@ static function __init__(): Void {
 public function new( element:Dynamic):Void;
  public function getState():Dynamic;
  public function getEventHandler():Dynamic;
-static public var EventType:String;
-static public var MANDATORY_MS_BETWEEN_INPUT_EVENTS_TIE_BREAKER:Float;
-static public var State:String;
 }

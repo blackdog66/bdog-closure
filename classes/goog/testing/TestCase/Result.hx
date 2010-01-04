@@ -15,11 +15,4 @@ public function new( testCase:Dynamic):Void;
  public function isSuccess():Bool;
  public function getSummary():String;
  public function isStrict():Bool;
-public var totalCount:Float;
-public var runCount:Float;
-public var successCount:Float;
-public var runTime:Float;
-public var numFilesLoaded:Float;
-public var errors:Dynamic;
-public var messages:Array<String>;
 }

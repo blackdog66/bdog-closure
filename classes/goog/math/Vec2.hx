@@ -27,9 +27,4 @@ static public function sum( a:Dynamic,b:Dynamic):Dynamic;
 static public function difference( a:Dynamic,b:Dynamic):Dynamic;
 static public function dot( a:Dynamic,b:Dynamic):Float;
 static public function lerp( a:Dynamic,b:Dynamic,x:Float):Dynamic;
-public var x:Float;
-public var y:Float;
-static public var distance:Dynamic;
-static public var squaredDistance:Dynamic;
-static public var equals:Dynamic;
 }

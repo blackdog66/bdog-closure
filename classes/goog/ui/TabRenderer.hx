@@ -14,5 +14,4 @@ static function __init__(): Void {
 public function new():Void;
  public function getTooltip( element:Dynamic):String;
  public function setTooltip( element:Dynamic,tooltip:Dynamic):Void;
-static public var CSS_CLASS:String;
 }

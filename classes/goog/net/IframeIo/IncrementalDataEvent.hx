@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.net.IframeIo.IncrementalDataEvent')");
       }
 public function new( data:Dynamic):Void;
-public var data:Dynamic;
 }

@@ -40,12 +40,4 @@ public function new( ?opt_name:String):Void;
  public function doSuccess( test:Dynamic):Void;
  public function doError( test:Dynamic,?opt_e:Dynamic):Void;
  public function logError( name:String,?opt_e:Dynamic):Dynamic;
-public var result_:Dynamic;
-static public var Order:String;
-static public var MAX_RUN_TIME:Float;
-public var order:String;
-static public var currentTestName:String;
-static public var IS_IE:Bool;
-public var started:Bool;
-public var running:Bool;
 }

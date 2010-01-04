@@ -12,6 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.positioning.AnchoredPosition')");
       }
 public function new( anchorElement:Dynamic,corner:Dynamic):Void;
-public var element:Dynamic;
-public var corner:Dynamic;
 }

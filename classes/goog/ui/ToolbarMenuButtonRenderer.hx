@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.ui.ToolbarMenuButtonRenderer')");
       }
 public function new():Void;
-static public var CSS_CLASS:String;
 }

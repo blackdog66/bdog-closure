@@ -15,5 +15,4 @@ public function new():Void;
  public function getTooltip( element:Dynamic):Dynamic;
  public function setTooltip( element:Dynamic,tooltip:String):Void;
  public function setCollapsed( button:Dynamic,sides:Float):Void;
-static public var CSS_CLASS:String;
 }

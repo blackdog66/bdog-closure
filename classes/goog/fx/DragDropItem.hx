@@ -17,6 +17,4 @@ public function new( element:Dynamic,?opt_data:Dynamic):Void;
  public function getCurrentDragElement():Dynamic;
  public function getDraggableElements():Array<Dynamic>;
  public function setParent( parent:Dynamic):Void;
-public var element:Dynamic;
-public var data:Dynamic;
 }

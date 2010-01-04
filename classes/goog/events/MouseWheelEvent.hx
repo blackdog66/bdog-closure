@@ -12,7 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.events.MouseWheelEvent')");
       }
 public function new( detail:Float,browserEvent:Dynamic,deltaX:Float,deltaY:Float):Void;
-public var detail:Float;
-public var deltaX:Float;
-public var deltaY:Float;
 }

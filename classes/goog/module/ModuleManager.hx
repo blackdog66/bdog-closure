@@ -31,6 +31,4 @@ public function new():Void;
  public function afterLoadModuleCode( id:String):Void;
  public function registerInitializationCallback( fn:Dynamic,?opt_handler:Dynamic):Void;
  public function registerCallback( types:Dynamic,fn:Dynamic):Void;
-static public var CallbackType:String;
-static public var FailureType:Float;
 }

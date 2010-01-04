@@ -15,5 +15,4 @@ public function new():Void;
 static public function wrapCaption( content:Dynamic,dom:Dynamic):Dynamic;
  public function setValue( element:Dynamic,value:Dynamic):Void;
 static public function setCaptionValue( caption:Dynamic,value:Dynamic):Void;
-static public var CSS_CLASS:String;
 }

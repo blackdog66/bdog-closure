@@ -17,5 +17,4 @@ public function new():Void;
  public function getChildNodeValue( name:String):Dynamic;
  public function getDataPath():String;
  public function getLoadState():Dynamic;
-public var load:Dynamic;
 }

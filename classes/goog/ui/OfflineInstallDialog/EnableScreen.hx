@@ -13,8 +13,4 @@ static function __init__(): Void {
       }
 public function new( dialog:Dynamic):Void;
  public function getButtonSet():Dynamic;
-public var MSG_OFFLINE_DIALOG_ENABLE_GEARS:Dynamic;
-public var enableMsg_:String;
-static public var TYPE:String;
-public var enableOnEnter:Bool;
 }

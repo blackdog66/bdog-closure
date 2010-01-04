@@ -25,11 +25,4 @@ public function new( ?opt_parentNode:Dynamic,?opt_customRenderer:Dynamic,?opt_ri
  public function reposition():Void;
  public function setAutoPosition( auto:Bool):Void;
  public function renderRowHtml( row:Dynamic,token:String):Dynamic;
-public var hilitedRow_:Float;
-public var startRenderingRows_:Float;
-public var className:String;
-public var rowClassName:String;
-public var activeClassName:String;
-public var highlightedClassName:String;
-static public var DELAY_BEFORE_MOUSEOVER:Float;
 }

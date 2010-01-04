@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.dom.RangeIterator')");
       }
 public function new( node:Dynamic,?opt_reverse:Bool):Void;
-public var isLast:Bool;
 }

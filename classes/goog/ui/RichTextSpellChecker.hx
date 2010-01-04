@@ -12,6 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.ui.RichTextSpellChecker')");
       }
 public function new( handler:Dynamic,?opt_domHelper:Dynamic):Void;
-public var wordClassName:String;
-public var invalidWordCssText:String;
 }

@@ -27,5 +27,4 @@ public function new( ?opt_location:Dynamic,?opt_renderer:Dynamic,?opt_domHelper:
  public function handleTabDisable( e:Dynamic):Void;
  public function handleTabHide( e:Dynamic):Void;
 static public function getOrientationFromLocation( location:Dynamic):Dynamic;
-static public var Location:String;
 }

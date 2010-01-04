@@ -16,6 +16,4 @@ public function new( ?opt_domHelper:Dynamic):Void;
  public function getIdleTime( ?opt_now:Float):Float;
  public function getLastEventType():String;
  public function getLastEventTime():Float;
-static public var MIN_EVENT_SPACING:Float;
-static public var Event:String;
 }

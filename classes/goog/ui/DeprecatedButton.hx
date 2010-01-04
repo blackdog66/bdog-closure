@@ -27,5 +27,4 @@ static public function getNextUniqueId():String;
  public function isRendered():Bool;
  public function render( ?opt_element:Dynamic):Void;
  public function decorate( element:Dynamic):Void;
-static public var EventType:String;
 }

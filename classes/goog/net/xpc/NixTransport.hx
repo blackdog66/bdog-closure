@@ -14,10 +14,4 @@ static function __init__(): Void {
 public function new( channel:Dynamic):Void;
  public function connect():Void;
  public function send( service:String,payload:String):Void;
-static public var NIX_WRAPPER:String;
-static public var NIX_GET_WRAPPER:String;
-static public var NIX_HANDLE_MESSAGE:String;
-static public var NIX_CREATE_CHANNEL:String;
-static public var NIX_ID_FIELD:String;
-public var transportType:Float;
 }

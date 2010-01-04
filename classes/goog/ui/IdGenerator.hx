@@ -13,5 +13,4 @@ static function __init__(): Void {
       }
 public function new():Void;
  public function getNextUniqueId():String;
-static public var instance:Dynamic;
 }

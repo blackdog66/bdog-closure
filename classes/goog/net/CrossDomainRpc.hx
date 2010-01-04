@@ -22,9 +22,4 @@ static public function setDebugMode( flag:Bool):Void;
  public function reset():Void;
 static public function sendResponse( data:String,isDataJson:Bool,echo:Dynamic,status:Float,headers:String):Void;
  public function getResponseHeader( name:String):Dynamic;
-static public var HEADER:String;
-static public var PARAM:String;
-static public var PARAM_ECHO:String;
-static public var PARAM_ECHO_REQUEST_ID:String;
-static public var PARAM_ECHO_DUMMY_URI:String;
 }

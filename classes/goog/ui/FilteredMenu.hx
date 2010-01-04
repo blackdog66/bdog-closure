@@ -25,5 +25,4 @@ public function new( ?opt_renderer:Dynamic,?opt_domHelper:Dynamic):Void;
  public function hasPersistentVisibility( child:Dynamic):Bool;
  public function handleFilterEvent( e:Dynamic):Void;
  public function getFilterInputElement():Dynamic;
-static public var EventType:String;
 }

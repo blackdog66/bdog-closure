@@ -19,6 +19,4 @@ public function new():Void;
  public function cleanContentsDom( fieldCopy:Void):Void;
  public function cleanContentsHtml( html:Void):Void;
  public function handleKeyboardShortcut( e:Void,key:Void,isModifierPressed:Void):Void;
-public var logger:Dynamic;
-static public var COMMAND:String;
 }

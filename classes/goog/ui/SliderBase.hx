@@ -39,6 +39,4 @@ public function new( ?opt_domHelper:Dynamic):Void;
  public function setVisible( visible:Bool):Void;
  public function setAriaRoles():Void;
  public function updateAriaStates():Void;
-static public var Orientation:String;
-public var createThumbs:Dynamic->Dynamic;
 }

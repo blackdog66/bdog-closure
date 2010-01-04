@@ -15,5 +15,4 @@ public function new( idleThreshold:Float,?opt_activityMonitor:Dynamic):Void;
  public function getIdleThreshold():Float;
  public function getActivityMonitor():Dynamic;
  public function isIdle():Bool;
-static public var Event:String;
 }

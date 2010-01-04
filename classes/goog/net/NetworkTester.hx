@@ -24,5 +24,4 @@ public function new( callBack:Dynamic,?opt_handler:Dynamic,?opt_uri:Dynamic):Voi
  public function start():Void;
  public function stop():Void;
  public function onResult( succeeded:Bool):Void;
-static public var DEFAULT_TIMEOUT_MS:Float;
 }

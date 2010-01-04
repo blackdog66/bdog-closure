@@ -12,7 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.gears.UrlCapture.Event')");
       }
 public function new( type:Dynamic,captureId:Float,?opt_uri:Dynamic,?opt_errorUris:Dynamic):Void;
-public var captureId:Float;
-public var uri:Dynamic;
-public var errorUris:Dynamic;
 }

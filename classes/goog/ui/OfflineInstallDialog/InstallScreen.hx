@@ -16,11 +16,4 @@ public function new( dialog:Dynamic,?opt_type:String):Void;
  public function setInstallDescription( description:String):Void;
  public function getContent():Void;
  public function handleSelect( e:Void):Void;
-public var MSG_OFFLINE_DIALOG_INSTALL_GEARS:Dynamic;
-public var installMsg_:String;
-public var MSG_INSTALL_GEARS:Dynamic;
-public var enableMsg_:String;
-public var MSG_OFFLINE_DIALOG_CANCEL_2:Dynamic;
-static public var TYPE:String;
-public var isInstallButtonDefault:Bool;
 }

@@ -20,5 +20,4 @@ public function new( message:Dynamic,?opt_config:Dynamic,?opt_domHelper:Dynamic)
  public function setVisible( visible:Bool):Void;
  public function isVisible():Bool;
  public function getComputedAnchoredPosition( anchorElement:Dynamic):Dynamic;
-static public var defaultConfig:Dynamic;
 }

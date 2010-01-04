@@ -15,5 +15,4 @@ public function new( ?opt_element:Dynamic):Void;
  public function handleEvent( e:Dynamic):Void;
  public function attach( element:Dynamic):Void;
  public function detach():Void;
-static public var EventType:String;
 }

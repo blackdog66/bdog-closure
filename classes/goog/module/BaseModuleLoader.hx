@@ -21,5 +21,4 @@ public function new():Void;
  public function handleRequestSuccess( jsCode:String,moduleIds:Array<String>,successFn:Dynamic->Dynamic,errorFn:Dynamic):Void;
  public function handleRequestError( moduleIds:Array<String>,errorFn:Dynamic,status:Float):Void;
  public function handleRequestTimeout( moduleIds:Array<String>,timeoutFn:Dynamic->Dynamic):Void;
-public var logger:Dynamic;
 }

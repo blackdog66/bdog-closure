@@ -24,6 +24,4 @@ static public function isDirectlyInBlockquote( n:Dynamic):Bool;
  public function handleKeyUpInternal( e:Dynamic):Void;
 static public function isBrElem( node:Dynamic):Bool;
  public function ensureBlockIeOpera( tag:Dynamic,?opt_keyUp:Bool):Void;
-public var handleEnterWebkitInternal:Dynamic;
-public var handleEnterAtCursorGeckoInternal:Dynamic;
 }

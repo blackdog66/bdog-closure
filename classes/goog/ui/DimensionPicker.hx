@@ -17,8 +17,4 @@ public function new( ?opt_renderer:Dynamic,?opt_domHelper:Dynamic):Void;
  public function getSize():Dynamic;
  public function getValue():Dynamic;
  public function setValue( columns:Float,?opt_rows:Float):Void;
-public var minColumns:Float;
-public var minRows:Float;
-public var maxColumns:Float;
-public var maxRows:Float;
 }

@@ -12,7 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.events.KeyEvent')");
       }
 public function new( keyCode:Float,charCode:Float,repeat:Bool,browserEvent:Dynamic):Void;
-public var keyCode:Float;
-public var charCode:Float;
-public var repeat:Bool;
 }

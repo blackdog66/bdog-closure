@@ -12,6 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.spell.SpellCheck.WordChangedEvent')");
       }
 public function new( target:Dynamic,word:String,status:Dynamic):Void;
-public var word:String;
-public var status:Dynamic;
 }

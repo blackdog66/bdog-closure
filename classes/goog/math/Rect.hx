@@ -23,8 +23,4 @@ static public function difference( a:Dynamic,b:Dynamic):Dynamic;
  public function boundingRect( rect:Dynamic):Void;
  public function contains( another:Dynamic):Bool;
  public function getSize():Dynamic;
-public var left:Float;
-public var top:Float;
-public var width:Float;
-public var height:Float;
 }

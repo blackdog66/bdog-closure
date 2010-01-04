@@ -28,7 +28,4 @@ public function new():Void;
  public function execute():Void;
  public function writeLog( log:String):Void;
  public function log( s:String):Void;
-public var errors:Array<String>;
-public var testCase:Dynamic;
-public var initialized:Bool;
 }

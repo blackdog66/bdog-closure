@@ -15,5 +15,4 @@ public function new():Void;
  public function createCaption( content:Dynamic,dom:Dynamic):Dynamic;
 static public function wrapCaption( content:Dynamic,cssClass:String,dom:Dynamic):Dynamic;
  public function createDropdown( dom:Dynamic):Dynamic;
-static public var CSS_CLASS:String;
 }

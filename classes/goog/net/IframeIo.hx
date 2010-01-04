@@ -33,8 +33,4 @@ static public function handleIncrementalData( win:Dynamic,data:Dynamic):Void;
  public function getErrorChecker():Dynamic;
  public function getTimeoutInterval():Float;
  public function setTimeoutInterval( ms:Float):Void;
-static public var FRAME_NAME_PREFIX:String;
-static public var INNER_FRAME_SUFFIX:String;
-static public var IFRAME_DISPOSE_DELAY_MS:Float;
-public var errorHandled_:Dynamic;
 }

@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.ui.TabPaneEvent')");
       }
 public function new( type:String,target:Dynamic,page:Dynamic):Void;
-public var page:Dynamic;
 }

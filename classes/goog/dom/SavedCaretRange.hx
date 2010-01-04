@@ -18,5 +18,4 @@ public function new( range:Dynamic):Void;
  public function setRestorationDocument( doc:Dynamic):Void;
  public function restoreInternal():Dynamic;
 static public function htmlEqual( str1:String,str2:String):Bool;
-static public var CARET_REGEX:Dynamic;
 }

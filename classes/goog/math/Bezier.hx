@@ -19,13 +19,4 @@ public function new( x0:Float,y0:Float,x1:Float,y1:Float,x2:Float,y2:Float,x3:Fl
  public function subdivideLeft( t:Float):Void;
  public function subdivideRight( t:Float):Void;
  public function subdivide( s:Float,t:Float):Void;
-public var x0:Float;
-public var y0:Float;
-public var x1:Float;
-public var y1:Float;
-public var x2:Float;
-public var y2:Float;
-public var x3:Float;
-public var y3:Float;
-static public var KAPPA:Float;
 }

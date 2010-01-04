@@ -12,15 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.structs.QuadTree.Node')");
       }
 public function new( x:Float,y:Float,w:Float,h:Float,?opt_parent:Dynamic):Void;
-public var x:Float;
-public var y:Float;
-public var w:Float;
-public var h:Float;
-public var parent:Dynamic;
-public var nodeType:Dynamic;
-public var nw:Dynamic;
-public var ne:Dynamic;
-public var sw:Dynamic;
-public var se:Dynamic;
-public var point:Dynamic;
 }

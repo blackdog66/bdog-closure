@@ -18,5 +18,4 @@ public function new():Void;
  public function setCheckable( item:Dynamic,element:Dynamic,checkable:Bool):Void;
  public function hasCheckBoxStructure( element:Dynamic):Bool;
  public function setEnableCheckBoxStructure( item:Dynamic,element:Dynamic,enable:Bool):Void;
-static public var CSS_CLASS:String;
 }

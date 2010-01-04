@@ -27,17 +27,4 @@ public function new( width:Dynamic,height:Dynamic,?opt_coordWidth:Float,?opt_coo
  public function isDomClonable():Bool;
  public function suspend():Void;
  public function resume():Void;
-public var width:Dynamic;
-public var height:Dynamic;
-public var coordWidth:Float;
-public var coordHeight:Float;
-public var canvasElement:Dynamic;
-public var coordLeft:Float;
-public var coordTop:Float;
-public var clear:Dynamic;
-public var drawEllipse:Float;
-public var drawRect:Float;
-public var drawTextOnLine:String;
-public var drawPath:Dynamic;
-public var createGroup:Dynamic;
 }

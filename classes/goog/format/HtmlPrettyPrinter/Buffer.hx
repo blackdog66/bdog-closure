@@ -15,5 +15,4 @@ public function new():Void;
  public function pushToken( breakBefore:Bool,token:String,breakAfter:Bool):Void;
  public function lineBreak():Void;
  public function toString():String;
-public var breakCount:Float;
 }

@@ -15,5 +15,4 @@ public function new( ?opt_name:String):Void;
  public function waitForTimeout( continuation:Dynamic,?opt_duration:Float):Void;
  public function waitForEvent( eventTarget:Dynamic,eventType:String,continuation:Dynamic):Void;
  public function waitForCondition( condition:Dynamic,continuation:Dynamic,?opt_interval:Float,?opt_maxTimeout:Float):Void;
-static public var MAX_TIMEOUT:Float;
 }

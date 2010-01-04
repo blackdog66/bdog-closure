@@ -16,12 +16,4 @@ public function new():Void;
  public function applyStandardPattern( formatType:Float):Dynamic;
  public function parse( text:String,start:Float,date:Dynamic):Float;
  public function strictParse( text:String,start:Float,date:Dynamic):Float;
-public var year:Float;
-public var month:Float;
-public var dayOfMonth:Float;
-public var hours:Float;
-public var minutes:Float;
-public var seconds:Float;
-public var milliseconds:Float;
-static public var ambiguousYearCenturyStart:Float;
 }

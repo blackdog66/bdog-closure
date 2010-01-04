@@ -23,6 +23,4 @@ public function new( ?opt_node:Dynamic,?opt_reversed:Bool,?opt_unconstrained:Boo
  public function isNonElement():Bool;
  public function equals( other:Dynamic):Bool;
  public function splice( var_args:Dynamic):Void;
-public var node:Dynamic;
-public var tagType:Dynamic;
 }

@@ -21,7 +21,4 @@ public function new( ?opt_element:Dynamic,?opt_position:Dynamic):Void;
  public function reposition():Void;
 static public function positionPopup( anchorElement:Dynamic,anchorElementCorner:Dynamic,movableElement:Dynamic,movableElementCorner:Dynamic,?opt_offset:Dynamic,?opt_margin:Dynamic,?opt_overflow:Float):Bool;
 static public function positionAtCoordinate( absolutePos:Dynamic,movableElement:Dynamic,movableElementCorner:Dynamic,?opt_margin:Dynamic):Bool;
-public var position_:Dynamic;
-static public var Corner:Float;
-static public var Overflow:Float;
 }

@@ -79,6 +79,4 @@ public function new( html:String,?opt_config:Dynamic,?opt_domHelper:Dynamic):Voi
  public function getConfig():Dynamic;
  public function onTreeAvailable():Void;
  public function setTreeInternal( tree:Dynamic):Void;
-static public var EventType:String;
-static public var idPrefix:String;
 }

@@ -16,5 +16,4 @@ public function new( ?opt_maxRetries:Float,?opt_headers:Dynamic,?opt_minCount:Fl
  public function getOutstandingCount():Float;
  public function send( id:String,url:String,?opt_method:String,?opt_content:String,?opt_headers:Dynamic,?opt_priority:Dynamic,?opt_callback:Dynamic,?opt_maxRetries:Float):Void;
  public function abort( id:String,?opt_force:Bool):Void;
-static public var EventType:String;
 }

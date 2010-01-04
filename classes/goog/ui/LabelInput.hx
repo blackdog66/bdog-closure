@@ -17,5 +17,4 @@ public function new( ?opt_label:String,?opt_domHelper:Dynamic):Void;
  public function setValue( s:String):Void;
  public function getValue():String;
  public function focusAndSelect():Void;
-public var LABEL_CLASS_NAME:Dynamic;
 }

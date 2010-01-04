@@ -19,8 +19,4 @@ public function new( ?opt_interval:Float,?opt_timerObject:Dynamic):Void;
  public function stop():Void;
 static public function callOnce( listener:Dynamic,?opt_interval:Float,?opt_handler:Dynamic):Float;
 static public function clear( timerId:Float):Void;
-public var enabled:Bool;
-static public var defaultTimerObject:Dynamic;
-static public var intervalScale:Float;
-static public var TICK:String;
 }

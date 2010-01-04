@@ -15,5 +15,4 @@ public function new( rangeArray:Array<Float>,valueArray:Dynamic,?opt_delta:Bool)
  public function spliceInversion( rangeArray:Array<Float>,valueArray:Dynamic,?opt_delta:Bool):Void;
  public function at( intKey:Float):Dynamic;
  public function getLeast( intKey:Float):Float;
-public var values:Dynamic;
 }

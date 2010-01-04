@@ -21,7 +21,4 @@ public function new( el:Dynamic,?opt_tabLocation:Dynamic,?opt_domHelper:Dynamic,
  public function getSelectedPage():Dynamic;
  public function getContentElement():Dynamic;
  public function getElement():Dynamic;
-public var dom_:Dynamic;
-static public var Events:Dynamic;
-static public var TabLocation:Float;
 }

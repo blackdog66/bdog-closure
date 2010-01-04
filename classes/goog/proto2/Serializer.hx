@@ -15,6 +15,4 @@ public function new():Void;
  public function getSerializedValue( field:Dynamic,value:Dynamic):Dynamic;
  public function deserialize( descriptor:Dynamic,data:Dynamic):Dynamic;
  public function getDeserializedValue( field:Dynamic,value:Dynamic):Dynamic;
-public var serialize:Dynamic;
-public var deserializeTo:Dynamic;
 }

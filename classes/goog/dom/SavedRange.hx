@@ -13,5 +13,4 @@ static function __init__(): Void {
       }
 public function new():Void;
  public function restore( ?opt_stayAlive:Bool):Dynamic;
-public var restoreInternal:Dynamic;
 }

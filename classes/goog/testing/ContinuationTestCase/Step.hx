@@ -14,5 +14,4 @@ static function __init__(): Void {
 public function new( name:String,ref:Dynamic,?opt_scope:Dynamic):Void;
  public function setTimeout( func:Dynamic,duration:Float):Void;
  public function clearTimeout():Void;
-public var waiting:Bool;
 }

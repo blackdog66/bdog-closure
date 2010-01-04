@@ -20,5 +20,4 @@ public function new():Void;
  public function sendMessage( message:Dynamic,worker:Dynamic):Void;
  public function registerWorker( worker:Dynamic):Void;
  public function unregisterWorker( worker:Dynamic):Void;
-static public var EventType:String;
 }

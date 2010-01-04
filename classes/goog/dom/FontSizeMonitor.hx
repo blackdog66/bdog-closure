@@ -12,6 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.dom.FontSizeMonitor')");
       }
 public function new( ?opt_domHelper:Dynamic):Void;
-static public var EventType:String;
-static public var CHANGE_EVENT:String;
 }

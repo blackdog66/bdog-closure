@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.demos.editor.HelloWorldDialog.OkEvent')");
       }
 public function new( message:String):Void;
-public var type:Dynamic;
 }

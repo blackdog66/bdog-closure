@@ -13,7 +13,4 @@ static function __init__(): Void {
       }
 public function new( source:String,message:String,?opt_stack:String):Void;
  public function toString():String;
-public var source:String;
-public var message:String;
-public var stack:String;
 }

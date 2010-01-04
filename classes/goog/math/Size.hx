@@ -26,6 +26,4 @@ static public function equals( a:Dynamic,b:Dynamic):Bool;
  public function round():Dynamic;
  public function scale( s:Float):Dynamic;
  public function scaleToFit( target:Dynamic):Dynamic;
-public var width:Float;
-public var height:Float;
 }

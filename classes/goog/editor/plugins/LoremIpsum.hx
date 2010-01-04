@@ -13,6 +13,4 @@ static function __init__(): Void {
       }
 public function new( message:String):Void;
  public function queryCommandValue( command:String):Bool;
-public var activeOnUneditableFields:Dynamic;
-public var isSilentCommand:Dynamic;
 }

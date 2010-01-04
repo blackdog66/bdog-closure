@@ -31,13 +31,4 @@ public function new( matcher:Dynamic,renderer:Dynamic,selectionHandler:Dynamic):
  public function getIndexOfId( id:Float):Float;
  public function attachInputs( var_args:Dynamic):Void;
  public function detachInputs( var_args:Dynamic):Void;
-public var matcher_:Dynamic;
-public var selectionHandler_:Dynamic;
-public var renderer_:Dynamic;
-public var token_:String;
-public var rows_:Dynamic;
-public var hiliteId_:Float;
-public var firstRowId_:Float;
-public var target_:Dynamic;
-static public var EventType:String;
 }

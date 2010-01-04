@@ -16,7 +16,4 @@ public function new( autocompleteField:Dynamic,?opt_maxMatches:Float,?opt_blankU
  public function addSubtree( subtreeName:String,subtreeData:Dynamic,path:Array<String>):Void;
  public function addItem( itemName:String,itemData:Dynamic,path:Array<String>):Void;
  public function choiceHandler( e:Dynamic):Void;
-static public var DEFAULT_MAX_MATCHES:Float;
-static public var DEFAULT_BLANK_URL:String;
-static public var KIND_TO_SEPARATOR:Dynamic;
 }

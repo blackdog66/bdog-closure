@@ -36,6 +36,4 @@ public function new( ?opt_separators:String,?opt_literals:String,?opt_multi:Bool
  public function needKeyUpListener():Bool;
  public function handleKeyUp( e:Dynamic):Bool;
  public function update( ?opt_force:Bool):Void;
-static public var STANDARD_LIST_SEPARATORS:String;
-static public var QUOTE_LITERALS:String;
 }

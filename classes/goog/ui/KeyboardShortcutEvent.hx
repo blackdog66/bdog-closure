@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.ui.KeyboardShortcutEvent')");
       }
 public function new( type:String,identifier:String,target:Dynamic):Void;
-public var identifier:String;
 }

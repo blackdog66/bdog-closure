@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.graphics.GroupElement')");
       }
 public function new( element:Dynamic,graphics:Dynamic):Void;
-public var clear:Dynamic;
 }

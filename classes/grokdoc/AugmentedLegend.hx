@@ -16,5 +16,4 @@ public function new( legendElt:Dynamic):Void;
  public function hiddenFunctionTypeRowClickHandler_( e:Void):Void;
  public function checkboxClickHandler_( e:Void):Void;
  public function setFunctionVisibility_( functionType:Void,isVisible:Void):Void;
-static public var CLASS_NAMES:Array<String>;
 }

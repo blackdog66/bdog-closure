@@ -14,5 +14,4 @@ static function __init__(): Void {
 public function new():Void;
  public function createButton( content:Dynamic,dom:Dynamic):Dynamic;
  public function hasBoxStructure( button:Dynamic,element:Dynamic):Bool;
-static public var CSS_CLASS:String;
 }

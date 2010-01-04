@@ -29,11 +29,4 @@ public function new( ?opt_identifier:String,?opt_prefix:String):Void;
  public function writeInitialDocument_():Void;
  public function addFilter( loggerName:String):Void;
  public function removeFilter( loggerName:String):Void;
-public var identifier_:String;
-public var outputBuffer_:Dynamic;
-static public var MAX_SAVED:Float;
-static public var COOKIE_TIME:Float;
-public var welcomeMessage:String;
-public var win_:Dynamic;
-public var lastCall_:Float;
 }

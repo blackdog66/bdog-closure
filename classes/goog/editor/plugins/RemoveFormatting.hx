@@ -16,5 +16,4 @@ public function new():Void;
  public function execCommandInternal( command:Void,var_args:Void):Void;
  public function getValueForNode( node:Dynamic):String;
  public function setRemoveFormattingFunc( removeFormattingFunc:Dynamic):Void;
-static public var REMOVE_FORMATTING_COMMAND:String;
 }

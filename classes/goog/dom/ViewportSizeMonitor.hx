@@ -13,5 +13,4 @@ static function __init__(): Void {
       }
 public function new( ?opt_window:Dynamic):Void;
  public function getSize():Dynamic;
-static public var WINDOW_SIZE_POLL_RATE:Float;
 }

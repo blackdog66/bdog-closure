@@ -25,5 +25,4 @@ public function new( dialog:Dynamic,type:String):Void;
  public function activate():Void;
  public function deactivate():Void;
  public function handleSelect( e:Dynamic):Void;
-public var dialog_:Dynamic;
 }

@@ -20,6 +20,4 @@ static public function hasIntersection( a:Dynamic,b:Dynamic):Bool;
 static public function boundingRange( a:Dynamic,b:Dynamic):Dynamic;
 static public function contains( a:Dynamic,b:Dynamic):Bool;
 static public function containsPoint( range:Dynamic,p:Float):Bool;
-public var start:Float;
-public var end:Float;
 }

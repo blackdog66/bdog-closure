@@ -16,8 +16,4 @@ public function new( requiresClassnameToSplit:Bool,?opt_classname:String):Void;
 static public function isBlockquote( node:Dynamic,isAlreadySetup:Bool,requiresClassnameToSplit:Bool,classname:String):Bool;
  public function isSetupBlockquote( node:Dynamic):Bool;
  public function execCommandInternal( command:String,var_args:Dynamic):Dynamic;
-static public var SPLIT_COMMAND:String;
-static public var CLASS_ID:String;
-public var logger:Dynamic;
-public var isSilentCommand:Dynamic;
 }

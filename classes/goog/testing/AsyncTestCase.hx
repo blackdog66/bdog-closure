@@ -17,6 +17,4 @@ static public function createAndInstall( ?opt_name:String):Dynamic;
  public function continueTesting():Void;
  public function doAsyncError( ?opt_e:Dynamic):Void;
  public function enableDebugLogging():Void;
-public var stepTimeout:Float;
-public var timeToSleepAfterFailure:Float;
 }

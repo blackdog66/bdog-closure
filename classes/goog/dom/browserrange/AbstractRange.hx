@@ -16,13 +16,4 @@ public function new():Void;
  public function containsBrowserRange( range:Dynamic,?opt_allowPartial:Bool):Bool;
  public function containsNode( node:Dynamic,?opt_allowPartial:Bool):Bool;
  public function getHtmlFragment():String;
-public var clone:Dynamic;
-public var compareBrowserRangeEndpoints:Dynamic;
-public var isCollapsed:Bool;
-public var select:Bool;
-public var removeContents:Dynamic;
-public var surroundContents:Dynamic;
-public var insertNode:Dynamic;
-public var surroundWithNodes:Dynamic;
-public var collapse:Bool;
 }

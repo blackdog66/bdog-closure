@@ -14,6 +14,4 @@ static function __init__(): Void {
 public function new():Void;
  public function createContentWithDropdown( content:Dynamic,dom:Dynamic):Array<Dynamic>;
  public function createDropdown( dom:Dynamic):Dynamic;
-static public var CSS_CLASS:String;
-static public var IE6_CLASS_COMBINATIONS:Array<String>;
 }

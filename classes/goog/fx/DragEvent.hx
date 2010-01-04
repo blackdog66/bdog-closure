@@ -12,11 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.fx.DragEvent')");
       }
 public function new( type:String,dragobj:Dynamic,clientX:Float,clientY:Float,browserEvent:Dynamic,?opt_actX:Float,?opt_actY:Float,?opt_dragCanceled:Bool):Void;
-public var clientX:Float;
-public var clientY:Float;
-public var browserEvent:Dynamic;
-public var left:Float;
-public var top:Float;
-public var dragger:Dynamic;
-public var dragCanceled:Bool;
 }

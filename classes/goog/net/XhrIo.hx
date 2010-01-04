@@ -32,7 +32,4 @@ static public function protectEntryPoints( errorHandler:Dynamic,?opt_tracers:Boo
  public function getLastErrorCode():Dynamic;
  public function getLastError():String;
 static public function cleanupSend_( XhrIo:Void):Void;
-public var headers:Dynamic;
-static public var CONTENT_TYPE_HEADER:String;
-static public var FORM_CONTENT_TYPE:String;
 }

@@ -33,8 +33,4 @@ public function new( ?opt_element:Dynamic,?opt_type:Dynamic):Void;
  public function setVisible( visible:Bool):Void;
  public function showPopupElement():Void;
  public function onBeforeShow():Bool;
-static public var Type:String;
-static public var EventType:String;
-static public var DEBOUNCE_DELAY_MS:Float;
-public var reposition:Dynamic;
 }

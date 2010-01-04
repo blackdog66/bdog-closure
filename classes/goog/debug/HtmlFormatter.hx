@@ -13,5 +13,4 @@ static function __init__(): Void {
       }
 public function new( ?opt_prefix:String):Void;
  public function formatRecord( logRecord:Dynamic):String;
-public var showExceptionText:Bool;
 }

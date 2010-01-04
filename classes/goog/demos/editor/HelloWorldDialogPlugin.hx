@@ -13,5 +13,4 @@ static function __init__(): Void {
       }
 public function new():Void;
  public function createDialog( dialogDomHelper:Dynamic):Dynamic;
-static public var Command:String;
 }

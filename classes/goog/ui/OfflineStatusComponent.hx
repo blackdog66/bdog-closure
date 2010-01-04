@@ -26,5 +26,4 @@ public function new( ?opt_domHelper:Dynamic):Void;
  public function performStatusAction():Void;
  public function insertCardElement( card:Dynamic):Void;
  public function getPopupInternal():Dynamic;
-static public var StatusClassNames:String;
 }

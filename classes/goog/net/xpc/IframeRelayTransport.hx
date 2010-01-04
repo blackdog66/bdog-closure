@@ -15,5 +15,4 @@ public function new( channel:Dynamic):Void;
  public function connect():Void;
  public function transportServiceHandler( payload:String):Void;
  public function send( service:String,payload:String):Void;
-public var transportType:Float;
 }

@@ -17,8 +17,4 @@ public function new( ?opt_invisible:Bool,?opt_blankPageUrl:String,?opt_input:Dyn
  public function getToken():String;
  public function setToken( token:String,?opt_title:String):Void;
  public function replaceToken( token:String,?opt_title:String):Void;
-public var documentLoaded:Bool;
-static public var HAS_ONHASHCHANGE:Bool;
-static public var PollingType:Float;
-static public var EventType:String;
 }

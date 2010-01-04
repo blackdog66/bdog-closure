@@ -18,6 +18,4 @@ public function new( command:String):Void;
  public function handleAfterHide( e:Dynamic):Void;
  public function restoreOriginalSelection():Void;
  public function disposeOriginalSelection():Void;
-static public var EventType:String;
-public var createDialog:Dynamic;
 }

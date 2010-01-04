@@ -24,5 +24,4 @@ public function new( minX:Float,minY:Float,maxX:Float,maxY:Float):Void;
  public function getValues():Array<Dynamic>;
  public function clone():Dynamic;
  public function forEach( fn:Dynamic,?opt_obj:Dynamic):Void;
-static public var NodeType:Float;
 }

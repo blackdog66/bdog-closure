@@ -14,5 +14,4 @@ static function __init__(): Void {
 public function new():Void;
  public function getTrogClassId():Void;
  public function handleKeyboardShortcut( e:Void,key:Void,isModifierPressed:Void):Void;
-static public var HEADER_COMMAND:String;
 }

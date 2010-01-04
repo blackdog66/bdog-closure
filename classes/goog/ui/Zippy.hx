@@ -18,5 +18,4 @@ public function new( header:Dynamic,?opt_content:Dynamic,?opt_expanded:Bool):Voi
  public function setExpanded( expanded:Bool):Void;
  public function isExpanded():Bool;
  public function isBusy():Bool;
-static public var Events:Dynamic;
 }

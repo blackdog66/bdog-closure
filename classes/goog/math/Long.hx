@@ -46,9 +46,4 @@ static public function fromString( str:String,?opt_radix:Float):Dynamic;
  public function shiftLeft( numBits:Float):Dynamic;
  public function shiftRight( numBits:Float):Dynamic;
  public function shiftRightUnsigned( numBits:Float):Dynamic;
-static public var ZERO:Dynamic;
-static public var ONE:Dynamic;
-static public var NEG_ONE:Dynamic;
-static public var MAX_VALUE:Dynamic;
-static public var MIN_VALUE:Dynamic;
 }

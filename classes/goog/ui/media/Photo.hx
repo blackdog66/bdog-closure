@@ -13,5 +13,4 @@ static function __init__(): Void {
       }
 public function new():Void;
 static public function newControl( dataModel:Dynamic):Dynamic;
-static public var CSS_CLASS:String;
 }

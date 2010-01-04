@@ -27,14 +27,4 @@ static public function isNativeControlRange( range:Dynamic):Bool;
  public function containsNode( node:Dynamic,?opt_allowPartial:Bool):Bool;
  public function replaceContentsWithNode( node:Dynamic):Dynamic;
  public function saveUsingCarets():Dynamic;
-public var clone:Dynamic;
-public var containsRange:Dynamic;
-public var isRangeInDocument:Bool;
-public var isCollapsed:Bool;
-public var select:Dynamic;
-public var removeContents:Dynamic;
-public var insertNode:Dynamic;
-public var surroundWithNodes:Dynamic;
-public var saveUsingDom:Dynamic;
-public var collapse:Bool;
 }

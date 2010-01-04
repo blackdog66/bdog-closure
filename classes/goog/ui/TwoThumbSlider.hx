@@ -14,7 +14,4 @@ static function __init__(): Void {
 public function new( ?opt_domHelper:Dynamic):Void;
  public function getCssClass( orient:Dynamic):String;
  public function createThumbs():Void;
-static public var CSS_CLASS_PREFIX:String;
-static public var VALUE_THUMB_CSS_CLASS:String;
-static public var EXTENT_THUMB_CSS_CLASS:String;
 }

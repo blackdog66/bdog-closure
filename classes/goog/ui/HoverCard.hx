@@ -18,5 +18,4 @@ public function new( isAnchor:Dynamic,?opt_checkDescendants:Bool,?opt_domHelper:
  public function onCancelTrigger():Void;
  public function getAnchorElement():Dynamic;
  public function setMaxSearchSteps( maxSearchSteps:Float):Void;
-static public var EventType:String;
 }

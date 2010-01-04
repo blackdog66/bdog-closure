@@ -36,7 +36,4 @@ public function new( ?opt_class:String,?opt_useIframeMask:Bool,?opt_domHelper:Dy
  public function getDisposeOnHide():Bool;
  public function setButtonSet( buttons:Dynamic):Void;
  public function getButtonSet():Dynamic;
-static public var SELECT_EVENT:String;
-static public var EventType:String;
-static public var DefaultButtonKeys:String;
 }

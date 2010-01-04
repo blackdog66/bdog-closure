@@ -13,5 +13,4 @@ static function __init__(): Void {
       }
 public function new():Void;
  public function isOnline():Bool;
-static public var EventType:String;
 }

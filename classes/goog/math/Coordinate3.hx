@@ -20,7 +20,4 @@ static public function squaredDistance( a:Dynamic,b:Dynamic):Float;
 static public function difference( a:Dynamic,b:Dynamic):Dynamic;
  public function toArray():Array<Float>;
 static public function fromArray( a:Array<Float>):Dynamic;
-public var x:Dynamic;
-public var y:Dynamic;
-public var z:Dynamic;
 }

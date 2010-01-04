@@ -26,5 +26,4 @@ public function new( url:String,xhrEventCallback:Dynamic,?opt_method:String,?opt
  public function getAborted():Bool;
  public function getXhrEventCallback():Dynamic;
  public function getCompleteCallback():Dynamic;
-public var xhrIo:Dynamic;
 }

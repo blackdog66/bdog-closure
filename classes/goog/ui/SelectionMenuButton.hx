@@ -14,5 +14,4 @@ static function __init__(): Void {
 public function new( ?opt_renderer:Dynamic,?opt_itemRenderer:Dynamic,?opt_domHelper:Dynamic):Void;
  public function setSelectionState( state:Dynamic):Void;
  public function getSelectionState():Dynamic;
-static public var SelectionState:Float;
 }

@@ -13,8 +13,4 @@ static function __init__(): Void {
       }
 public function new( blankImgUrl:String):Void;
  public function renderRow( row:Dynamic,token:String,node:Dynamic):Void;
-static public var DEFAULT_ICON_KIND_CLASS:String;
-static public var KIND_ICON_MAP:Dynamic;
-static public var ICON_CLASS:String;
-static public var PATH_CLASS:String;
 }

@@ -66,6 +66,4 @@ public function new( content:Dynamic,?opt_renderer:Dynamic,?opt_domHelper:Dynami
  public function handleBlur( e:Dynamic):Void;
  public function handleKeyEvent( e:Dynamic):Bool;
  public function handleKeyEventInternal( e:Dynamic):Bool;
-static public var registerDecorator:String;
-static public var decorate:Dynamic;
 }

@@ -22,5 +22,4 @@ public function new( ?opt_domHelper:Dynamic):Void;
  public function getOrientation():Dynamic;
  public function getStep():Float;
  public function setStep( step:Float):Void;
-static public var Orientation:String;
 }

@@ -18,10 +18,4 @@ static public function fromIsoString( duration:String):Dynamic;
  public function clone():Dynamic;
  public function getInverse():Dynamic;
  public function add( interval:Dynamic):Void;
-static public var YEARS:String;
-static public var MONTHS:String;
-static public var DAYS:String;
-static public var HOURS:String;
-static public var MINUTES:String;
-static public var SECONDS:String;
 }

@@ -14,5 +14,4 @@ static function __init__(): Void {
 public function new( iframe:Dynamic,?opt_hasContent:Bool):Void;
  public function isLoaded():Bool;
  public function getIframe():Dynamic;
-static public var LOAD_EVENT:String;
 }

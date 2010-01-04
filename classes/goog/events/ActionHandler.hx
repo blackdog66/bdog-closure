@@ -12,5 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.events.ActionHandler')");
       }
 public function new( element:Dynamic):Void;
-static public var EventType:String;
 }

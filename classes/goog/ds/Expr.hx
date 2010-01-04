@@ -20,11 +20,4 @@ public function new( ?opt_expr:String):Void;
  public function getNodes( ?opt_ds:Dynamic,?opt_canCreate:Bool):Dynamic;
  public function getNode( ?opt_ds:Dynamic,?opt_canCreate:Bool):Dynamic;
 static public function create( expr:String):Dynamic;
-static public var CURRENT:Dynamic;
-static public var ALL_CHILD_NODES:Dynamic;
-static public var ALL_ELEMENTS:Dynamic;
-static public var ALL_ATTRIBUTES:Dynamic;
-static public var NAME:Dynamic;
-static public var COUNT:Dynamic;
-static public var POSITION:Dynamic;
 }

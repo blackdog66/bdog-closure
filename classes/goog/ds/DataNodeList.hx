@@ -12,6 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.ds.DataNodeList')");
       }
 public function new():Void;
-public var add:Dynamic;
-public var removeNode:String;
 }

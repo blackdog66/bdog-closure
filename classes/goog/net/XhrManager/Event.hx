@@ -12,7 +12,4 @@ static function __init__(): Void {
         untyped __js__("goog.require('goog.net.XhrManager.Event')");
       }
 public function new( type:Dynamic,target:Dynamic,id:String,xhrIo:Dynamic):Void;
-public var id:Dynamic;
-public var xhrIo:Dynamic;
-public var xhrLite:Dynamic;
 }
