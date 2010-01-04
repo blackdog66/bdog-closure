@@ -1,0 +1,9 @@
+
+-neko create.n
+-cp .
+-cp /home/blackdog/Projects/iphSrc
+-lib hxJson2
+-lib templo
+-main Create
+-resource class.txt@klsTemplate
+Create

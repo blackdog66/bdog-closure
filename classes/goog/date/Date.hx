@@ -1,0 +1,56 @@
+package goog.date;
+import js.Dom;
+private typedef Object = Dynamic;
+private typedef Node = Dom;
+private typedef Element = HtmlDom;
+private typedef HTMLIFrameElement = IFrame;
+private typedef Selection = Dynamic;
+private typedef Range = Dynamic;
+private typedef HTMLElement = Element;
+extern class Date {
+static function __init__(): Void {
+        untyped __js__("goog.require('goog.date.Date')");
+      }
+public function new( ?opt_year:Dynamic,?opt_month:Float,?opt_date:Float):Void;
+ public function clone():Dynamic;
+ public function getFullYear():Float;
+ public function getYear():Float;
+ public function getMonth():Float;
+ public function getDate():Float;
+ public function getTime():Float;
+ public function getDay():Float;
+ public function getIsoWeekday():Float;
+ public function getWeekday():Float;
+ public function getUTCFullYear():Float;
+ public function getUTCMonth():Float;
+ public function getUTCDate():Float;
+ public function getUTCDay():Float;
+ public function getUTCHours():Float;
+ public function getUTCMinutes():Float;
+ public function getUTCIsoWeekday():Float;
+ public function getUTCWeekday():Float;
+ public function getFirstDayOfWeek():Float;
+ public function getFirstWeekCutOffDay():Float;
+ public function getNumberOfDaysInMonth():Float;
+ public function getWeekNumber():Float;
+ public function getDayOfYear():Float;
+ public function getTimezoneOffset():Float;
+ public function getTimezoneOffsetString():String;
+ public function set( date:Dynamic):Void;
+ public function setFullYear( year:Float):Void;
+ public function setYear( year:Float):Void;
+ public function setMonth( month:Float):Void;
+ public function setDate( date:Float):Void;
+ public function setTime( ms:Float):Void;
+ public function setUTCFullYear( year:Float):Void;
+ public function setUTCMonth( month:Float):Void;
+ public function setUTCDate( date:Float):Void;
+ public function setFirstDayOfWeek( day:Float):Void;
+ public function setFirstWeekCutOffDay( day:Float):Void;
+ public function add( interval:Dynamic):Void;
+ public function toIsoString( ?opt_verbose:Bool,?opt_tz:Bool):String;
+ public function toUTCIsoString( ?opt_verbose:Bool,?opt_tz:Bool):String;
+ public function equals( other:Dynamic):Bool;
+ public function toString():String;
+ public function valueOf():Float;
+}

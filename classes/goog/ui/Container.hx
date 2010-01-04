@@ -1,0 +1,58 @@
+package goog.ui;
+import js.Dom;
+private typedef Object = Dynamic;
+private typedef Node = Dom;
+private typedef Element = HtmlDom;
+private typedef HTMLIFrameElement = IFrame;
+private typedef Selection = Dynamic;
+private typedef Range = Dynamic;
+private typedef HTMLElement = Element;
+extern class Container extends goog.ui.Component {
+static function __init__(): Void {
+        untyped __js__("goog.require('goog.ui.Container')");
+      }
+public function new( ?opt_orientation:Dynamic,?opt_renderer:Dynamic,?opt_domHelper:Dynamic):Void;
+ public function getKeyEventTarget():Dynamic;
+ public function setKeyEventTarget( element:Dynamic):Void;
+ public function getKeyHandler():Dynamic;
+ public function getRenderer():Dynamic;
+ public function setRenderer( renderer:Dynamic):Void;
+ public function handleEnterItem( e:Dynamic):Bool;
+ public function handleHighlightItem( e:Dynamic):Void;
+ public function handleUnHighlightItem( e:Dynamic):Void;
+ public function handleOpenItem( e:Dynamic):Void;
+ public function handleCloseItem( e:Dynamic):Void;
+ public function handleMouseDown( e:Dynamic):Void;
+ public function handleDocumentMouseUp( e:Dynamic):Void;
+ public function handleChildMouseEvents( e:Dynamic):Void;
+ public function getOwnerControl( node:Dynamic):Dynamic;
+ public function handleFocus( e:Dynamic):Void;
+ public function handleBlur( e:Dynamic):Void;
+ public function handleKeyEvent( e:Dynamic):Bool;
+ public function handleKeyEventInternal( e:Dynamic):Bool;
+ public function getOrientation():Dynamic;
+ public function setOrientation( orientation:Dynamic):Void;
+ public function isVisible():Bool;
+ public function setVisible( visible:Bool,?opt_force:Bool):Bool;
+ public function isEnabled():Bool;
+ public function setEnabled( enable:Bool):Void;
+ public function isFocusable():Bool;
+ public function setFocusable( focusable:Bool):Void;
+ public function isFocusableChildrenAllowed():Bool;
+ public function setFocusableChildrenAllowed( focusable:Bool):Void;
+ public function getHighlightedIndex():Float;
+ public function setHighlightedIndex( index:Float):Void;
+ public function setHighlighted( item:Dynamic):Void;
+ public function getHighlighted():Dynamic;
+ public function highlightFirst():Void;
+ public function highlightLast():Void;
+ public function highlightNext():Void;
+ public function highlightPrevious():Void;
+ public function highlightHelper( fn:Dynamic,startIndex:Float):Bool;
+ public function canHighlightItem( item:Dynamic):Bool;
+ public function setHighlightedIndexFromKeyEvent( index:Float):Void;
+ public function isMouseButtonPressed():Bool;
+ public function setMouseButtonPressed( pressed:Bool):Void;
+static public var EventType:String;
+static public var Orientation:String;
+}

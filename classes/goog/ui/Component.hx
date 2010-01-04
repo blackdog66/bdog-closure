@@ -1,0 +1,58 @@
+package goog.ui;
+import js.Dom;
+private typedef Object = Dynamic;
+private typedef Node = Dom;
+private typedef Element = HtmlDom;
+private typedef HTMLIFrameElement = IFrame;
+private typedef Selection = Dynamic;
+private typedef Range = Dynamic;
+private typedef HTMLElement = Element;
+extern class Component extends goog.events.EventTarget {
+static function __init__(): Void {
+        untyped __js__("goog.require('goog.ui.Component')");
+      }
+public function new( ?opt_domHelper:Dynamic):Void;
+static public function getStateTransitionEvent( state:Dynamic,isEntering:Bool):Dynamic;
+static public function setDefaultRightToLeft( rightToLeft:Bool):Void;
+ public function getId():String;
+ public function setId( id:String):Void;
+ public function getElement():Dynamic;
+ public function setElementInternal( element:Dynamic):Void;
+ public function getHandler():Dynamic;
+ public function setParent( parent:Dynamic):Void;
+ public function getParent():Dynamic;
+ public function getDomHelper():Dynamic;
+ public function isInDocument():Bool;
+ public function createDom():Void;
+ public function render( ?opt_parentElement:Dynamic):Void;
+ public function renderBefore( siblingElement:Dynamic):Void;
+ public function decorate( element:Dynamic):Void;
+ public function wasDecorated():Bool;
+ public function decorateInternal( element:Dynamic):Void;
+ public function enterDocument():Void;
+ public function exitDocument():Void;
+ public function makeId( idFragment:String):String;
+ public function getModel():Dynamic;
+ public function setModel( obj:Dynamic):Void;
+ public function getFragmentFromId( id:String):String;
+ public function getElementByFragment( idFragment:String):Dynamic;
+ public function addChild( child:Dynamic,?opt_render:Bool):Void;
+ public function addChildAt( child:Dynamic,index:Float,?opt_render:Bool):Void;
+ public function getContentElement():Dynamic;
+ public function isRightToLeft():Bool;
+ public function setRightToLeft( rightToLeft:Bool):Void;
+ public function hasChildren():Bool;
+ public function getChildCount():Float;
+ public function getChildIds():Array<String>;
+ public function getChild( id:String):Dynamic;
+ public function getChildAt( index:Float):Dynamic;
+ public function forEachChild( f:Dynamic,?opt_obj:Dynamic):Void;
+ public function indexOfChild( child:Dynamic):Float;
+ public function removeChild( child:Dynamic,?opt_unrender:Bool):Dynamic;
+ public function removeChildAt( index:Float,?opt_unrender:Bool):Dynamic;
+ public function removeChildren( ?opt_unrender:Bool):Void;
+static public var EventType:String;
+static public var Error:String;
+static public var State:Float;
+public var dom_:Dynamic;
+}
