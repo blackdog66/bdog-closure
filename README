@@ -1,0 +1,14 @@
+hxClosure - Google Closure Wrappers for haxe
+
+In development.
+
+Find the generated haxe external classes in classes.
+
+Create.hx is the generator. It reads the "serialized" file, converted to haxe serialisation format as it's much much quicker than reading json in haxe. I haven't provided the original json to save my space on git hub but you can deserialise or run jsdoc with my publish function in bdtemplate.
+
+There are a number of excluded files, missing methods yet, but it's moving in the correct direction.
+
+
+Cheers
+
+bd
