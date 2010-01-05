@@ -4,11 +4,32 @@ In development.
 
 Find the generated haxe external classes in classes.
 
-Create.hx is the generator. It reads the "serialized" file, converted to haxe serialisation format as it's much much quicker than reading json in haxe. I haven't provided the original json to save my space on git hub but you can deserialise or run jsdoc with my publish function in bdtemplate.
+Create.hx is the generator. It reads the "serialized" file, converted
+to haxe serialisation format (from json) as it's much much quicker
+than reading json in haxe. I haven't provided the original json to
+save my space on git hub but you can deserialise or run jsdoc on the
+closure documentation with my publish function in bdtemplate.
 
-There are a number of excluded files, missing methods yet, but it's moving in the correct direction.
+There are a number of excluded files, missing methods yet, but it's
+moving in the correct direction.
 
 What's happening should be fairly obvious from Create.hx.
+
+For testing
+
+    haxe make.hxml (create the generator in create.n
+    neko create.n (run the generator on "serialised")
+    haxe goog.hxml (see if the compiled classes compile)
+
+
+TODO
+----
+
+- I think a top level Goog.hx to mimic the function in the namespace
+  goog is next. 
+
+- Property generation is currently commented out, as it' producing
+  compiler errors due to duplicate definitions in base classes.
 
 Cheers
 
